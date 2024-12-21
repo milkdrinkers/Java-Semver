@@ -80,7 +80,7 @@ publishing {
     repositories {
         maven {
             name = "central"
-            url = uri("https://central.sonatype.com")
+            url = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
             credentials {
                 username = project.findProperty("maven.username") as String? ?: System.getenv("MAVEN_USERNAME")
                 password = project.findProperty("maven.password") as String? ?: System.getenv("MAVEN_PASSWORD")
