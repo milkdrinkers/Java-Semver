@@ -98,7 +98,7 @@ jobs:
           echo "CUSTOM_VERSION=${{ github.ref_name }}" >> $GITHUB_ENV
 
       - name: Build with Gradle and publish
-        run: ./gradlew build uploadAllPublicationsToProjectLocalRepository zipMavenCentralPortalPublication releaseMavenCentralPortalPublication -PaltVer=${{ env.CUSTOM_VERSION }} -x test --info
+        run: ./gradlew build publishAllPublicationsToProjectLocalRepository zipMavenCentralPortalPublication validateMavenCentralPortalPublication releaseMavenCentralPortalPublication -PaltVer=${{ env.CUSTOM_VERSION }} -x test --info
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
