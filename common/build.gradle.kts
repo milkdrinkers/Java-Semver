@@ -84,18 +84,18 @@ publishing {
     repositories {
         maven {
             name = "central"
-            url = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
+            url = uri("https://central.sonatype.com/")
             credentials {
-                username = project.findProperty("maven.username") as String? ?: System.getenv("MAVEN_USERNAME")
-                password = project.findProperty("maven.password") as String? ?: System.getenv("MAVEN_PASSWORD")
+                username = System.getenv("MAVEN_USERNAME") ?: project.findProperty("maven.username")?.toString()
+                password = System.getenv("MAVEN_PASSWORD") ?: project.findProperty("maven.password")?.toString()
             }
         }
     }
 }
 
 signing {
-    val signingKey = project.findProperty("signing.key") as String? ?: System.getenv("GPG_KEY")
-    val signingPassword = project.findProperty("signing.password") as String? ?: System.getenv("GPG_PASSWORD")
+    val signingKey = project.findProperty("signing.key")?.toString() ?: System.getenv("GPG_KEY")
+    val signingPassword = project.findProperty("signing.password")?.toString() ?: System.getenv("GPG_PASSWORD")
 
     useInMemoryPgpKeys(signingKey, signingPassword)
     sign(publishing.publications["maven"])
