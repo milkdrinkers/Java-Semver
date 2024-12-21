@@ -13,3 +13,6 @@ junit = ["junit-jupiter", "junit-platform"]
 [plugins]
 shadow = "com.gradleup.shadow:8.3.5"
 publish-on-central = "org.danilopianini.publish-on-central:7.0.4"
+maven-deployer = "io.deepmedia.tools.deployer:0.16.0"
+jreleaser = "org.jreleaser:1.15.0"
+gradle-publish = "com.vanniktech.maven.publish:0.30.0"
