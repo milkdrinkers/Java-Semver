@@ -12,3 +12,4 @@ junit = ["junit-jupiter", "junit-platform"]
 
 [plugins]
 shadow = "com.gradleup.shadow:8.3.5"
+publish-on-central = "org.danilopianini.publish-on-central:7.0.4"

@@ -1,8 +1,9 @@
 import java.time.Instant
 
 plugins {
-    `maven-publish`
-    signing
+//    `maven-publish`
+//    signing
+    alias(libs.plugins.publish.on.central)
 }
 
 applyCustomVersion()
@@ -43,23 +44,45 @@ tasks {
     }
 }
 
+publishOnCentral {
+    projectLongName.set(rootProject.name)
+    projectDescription.set(rootProject.description.orEmpty())
+    projectUrl.set("https://github.com/milkdrinkers/java-semver")
+
+    licenseName.set("GNU General Public License Version 3")
+    licenseUrl.set("https://www.gnu.org/licenses/gpl-3.0.en.html#license-text")
+
+    scmConnection.set("git:git://github.com/milkdrinkers/java-semver")
+
+    configureMavenCentral.set(true)
+    mavenCentral.user.set(System.getenv("MAVEN_USERNAME") ?: project.findProperty("maven.username")?.toString())
+    mavenCentral.password.set(System.getenv("MAVEN_PASSWORD") ?: project.findProperty("maven.password")?.toString())
+
+    if (rootProject.version.toString().endsWith("-SNAPSHOT")) { // Avoid stable versions being pushed there...
+        mavenCentralSnapshotsRepository() // Imports user and password from the configuration for Maven Central
+        // mavenCentralSnapshotsRepository() {
+        //     ...but they can be customized as per any other repository
+        // }
+    }
+}
+
 publishing {
     publications {
-        create<MavenPublication>("maven") {
+        withType<MavenPublication> {
             groupId = "io.github.milkdrinkers"
             artifactId = "javasemver"
             version = "${rootProject.version}"
 
             pom {
-                name.set(rootProject.name)
-                description.set(rootProject.description.orEmpty())
-                url.set("https://github.com/milkdrinkers/java-semver")
-                licenses {
-                    license {
-                        name.set("GNU General Public License Version 3")
-                        url.set("https://www.gnu.org/licenses/gpl-3.0.en.html#license-text")
-                    }
-                }
+//                name.set(rootProject.name)
+//                description.set(rootProject.description.orEmpty())
+//                url.set("https://github.com/milkdrinkers/java-semver")
+//                licenses {
+//                    license {
+//                        name.set("GNU General Public License Version 3")
+//                        url.set("https://www.gnu.org/licenses/gpl-3.0.en.html#license-text")
+//                    }
+//                }
                 developers {
                     developer {
                         id.set("darksaid98")
@@ -70,24 +93,11 @@ publishing {
                         organizationUrl.set("https://github.com/milkdrinkers")
                     }
                 }
-                scm {
-                    connection.set("scm:git:git://github.com/milkdrinkers/java-semver.git")
-                    developerConnection.set("scm:git:ssh://github.com:milkdrinkers/java-semver.git")
-                    url.set("https://github.com/milkdrinkers/java-semver")
-                }
-            }
-
-            from(components["java"])
-        }
-    }
-
-    repositories {
-        maven {
-            name = "central"
-            url = uri("https://central.sonatype.com/")
-            credentials {
-                username = System.getenv("MAVEN_USERNAME") ?: project.findProperty("maven.username")?.toString()
-                password = System.getenv("MAVEN_PASSWORD") ?: project.findProperty("maven.password")?.toString()
+//                scm {
+//                    connection.set("scm:git:git://github.com/milkdrinkers/java-semver.git")
+//                    developerConnection.set("scm:git:ssh://github.com:milkdrinkers/java-semver.git")
+//                    url.set("https://github.com/milkdrinkers/java-semver")
+//                }
             }
         }
     }
@@ -98,7 +108,6 @@ signing {
     val signingPassword = project.findProperty("signing.password")?.toString() ?: System.getenv("GPG_PASSWORD")
 
     useInMemoryPgpKeys(signingKey, signingPassword)
-    sign(publishing.publications["maven"])
 }
 
 fun applyCustomVersion() {
