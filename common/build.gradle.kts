@@ -87,7 +87,6 @@ deployer {
     }
 
     centralPortalSpec {
-        allowMavenCentralSync = false
         auth.user.set(secret("MAVEN_USERNAME"))
         auth.password.set(secret("MAVEN_PASSWORD"))
     }
