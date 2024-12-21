@@ -4,9 +4,8 @@ plugins {
 //    `maven-publish`
 //    signing
 //    alias(libs.plugins.publish.on.central)
-//    alias(libs.plugins.maven.deployer)
+    alias(libs.plugins.maven.deployer)
 //    alias(libs.plugins.jreleaser)
-    id("io.deepmedia.tools.deployer") version "0.16.0"
 }
 
 applyCustomVersion()
