@@ -2,7 +2,6 @@
 
 [libraries]
 annotations = "org.jetbrains:annotations:26.0.1"
-gson = "com.google.code.gson:gson:2.11.0"
 junit-bom = "org.junit:junit-bom:5.11.3"
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
 junit-platform = { module = "org.junit.platform:junit-platform-launcher" }
@@ -11,8 +10,4 @@ junit-platform = { module = "org.junit.platform:junit-platform-launcher" }
 junit = ["junit-jupiter", "junit-platform"]
 
 [plugins]
-shadow = "com.gradleup.shadow:8.3.5"
-publish-on-central = "org.danilopianini.publish-on-central:7.0.4"
 maven-deployer = "io.deepmedia.tools.deployer:0.16.0"
-jreleaser = "org.jreleaser:1.15.0"
-gradle-publish = "com.vanniktech.maven.publish:0.30.0"
