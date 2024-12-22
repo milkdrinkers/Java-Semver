@@ -130,7 +130,7 @@ public abstract class VersionCompare {
      *
      * @param current the current version
      * @param other the other version
-     * @return if currentVersion is same as otherVersion
+     * @return true if current version is same as other version
      */
     @SuppressWarnings("unused")
     public static boolean isEqual(@NotNull Version current, @NotNull Version other) {
@@ -142,7 +142,7 @@ public abstract class VersionCompare {
      *
      * @param current the current version
      * @param other the other version
-     * @return if currentVersion is newer
+     * @return true if current version is newer than other version
      */
     @SuppressWarnings("unused")
     public static boolean isNewer(@NotNull Version current, @NotNull Version other) {
@@ -154,7 +154,7 @@ public abstract class VersionCompare {
      *
      * @param current the current version
      * @param other the other version
-     * @return if currentVersion is older
+     * @return true if current version is older than other version
      */
     @SuppressWarnings("unused")
     public static boolean isOlder(@NotNull Version current, @NotNull Version other) {
@@ -166,7 +166,7 @@ public abstract class VersionCompare {
      *
      * @param current the current version
      * @param other the other version
-     * @return if currentVersion is newer or equal to
+     * @return true if current version is newer or equal to other version
      */
     @SuppressWarnings("unused")
     public static boolean isNewerOrEqual(@NotNull Version current, @NotNull Version other) {
@@ -178,7 +178,7 @@ public abstract class VersionCompare {
      *
      * @param current the current version
      * @param other the other version
-     * @return if currentVersion is older or equal to
+     * @return true if current version is older or equal to other version
      */
     @SuppressWarnings("unused")
     public static boolean isOlderOrEqual(@NotNull Version current, @NotNull Version other) {
