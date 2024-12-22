@@ -6,6 +6,7 @@ import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
+import java.util.Optional;
 
 /**
  * A class representing a Semantic Version.
@@ -75,6 +76,21 @@ public class Version extends VersionCompare implements Comparable<Version> {
      */
     public static @NotNull Version of(String version) throws VersionParseException {
         return VersionParser.parse(version);
+    }
+
+    /**
+     * Create a Version object from a version string.
+     *
+     * @param version a string containing a semantic version
+     * @return a version object wrapped in a optional
+     * @apiNote Uses {@link VersionParser#parse(String)} internally
+     */
+    public static @NotNull Optional<Version> ofOptional(String version) {
+        try {
+            return Optional.of(VersionParser.parse(version));
+        } catch (Exception ignored) {
+            return Optional.empty();
+        }
     }
 
     /**
