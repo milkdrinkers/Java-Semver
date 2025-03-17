@@ -341,12 +341,6 @@ public class Version extends VersionCompare implements Comparable<Version> {
 
     @Override
     public String toString() {
-        return "Version{" +
-            "major=" + major +
-            ", minor=" + minor +
-            ", patch=" + patch +
-            ", preRelease='" + preRelease + '\'' +
-            ", meta='" + meta + '\'' +
-            '}';
+        return getVersionFull();
     }
 }
