@@ -5,6 +5,7 @@ import io.github.milkdrinkers.javasemver.exception.VersionParseException;
 import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Arrays;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -50,7 +51,9 @@ public class Version extends VersionCompare implements Comparable<Version> {
         this.minor = minor;
         this.patch = patch;
         this.preRelease = preRelease;
-        this.preReleaseIdentifiers = preRelease.split("\\.");
+        this.preReleaseIdentifiers = Arrays.stream(preRelease.split("\\."))
+            .filter(string -> !string.isEmpty()) // Fixes bug where empty strings would count as identifiers
+            .toArray(String[]::new);
         this.meta = meta;
 
         this.hasPreRelease = !getPreRelease().isEmpty();
