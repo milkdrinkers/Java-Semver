@@ -54,7 +54,7 @@ public class Version extends VersionCompare implements Comparable<Version> {
         this.meta = meta;
 
         this.hasPreRelease = !getPreRelease().isEmpty();
-        this.hasMeta = !getMeta().isEmpty();
+        this.hasMeta = !getBuildMetadata().isEmpty();
         this.version = concatenateVersionString(this.major, this.minor, this.patch);
         this.versionFull = concatenateVersionStringFull(this.major, this.minor, this.patch, this.preRelease, this.meta);
 
@@ -91,6 +91,35 @@ public class Version extends VersionCompare implements Comparable<Version> {
         } catch (Exception ignored) {
             return Optional.empty();
         }
+    }
+
+    /**
+     * Create a Version object from semantic version data.
+     *
+     * @param major the major version
+     * @param minor the minor version
+     * @param patch the patch version
+     * @return the semantic version
+     * @throws VersionBuildException thrown if parsing the data into a version failed
+     * @apiNote Uses {@link VersionBuilder} internally
+     */
+    public static @NotNull Version of(long major, long minor, long patch) throws VersionBuildException {
+        return of(major, minor, patch, "");
+    }
+
+    /**
+     * Create a Version object from semantic version data.
+     *
+     * @param major the major version
+     * @param minor the minor version
+     * @param patch the patch version
+     * @param preRelease the pre-release version
+     * @return the semantic version
+     * @throws VersionBuildException thrown if parsing the data into a version failed
+     * @apiNote Uses {@link VersionBuilder} internally
+     */
+    public static @NotNull Version of(long major, long minor, long patch, String preRelease) throws VersionBuildException {
+        return of(major, minor, patch, preRelease, "");
     }
 
     /**
@@ -165,7 +194,7 @@ public class Version extends VersionCompare implements Comparable<Version> {
      *
      * @return the metadata
      */
-    public String getMeta() {
+    public String getBuildMetadata() {
         return meta;
     }
 
@@ -299,12 +328,12 @@ public class Version extends VersionCompare implements Comparable<Version> {
     public boolean equals(Object o) {
         if (!(o instanceof Version)) return false;
         Version version = (Version) o;
-        return getMajor() == version.getMajor() && getMinor() == version.getMinor() && getPatch() == version.getPatch() && Objects.equals(hasPreRelease(), version.hasPreRelease()) && Objects.equals(getMeta(), version.getMeta());
+        return getMajor() == version.getMajor() && getMinor() == version.getMinor() && getPatch() == version.getPatch() && Objects.equals(hasPreRelease(), version.hasPreRelease()) && Objects.equals(getBuildMetadata(), version.getBuildMetadata());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getMajor(), getMinor(), getPatch(), hasPreRelease(), getMeta());
+        return Objects.hash(getMajor(), getMinor(), getPatch(), hasPreRelease(), getBuildMetadata());
     }
 
     @Override
