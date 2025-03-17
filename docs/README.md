@@ -47,7 +47,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.milkdrinkers:java-semver:LATEST_VERSION")
+    implementation("io.github.milkdrinkers:javasemver:LATEST_VERSION")
 }
 ```
 </details>
@@ -60,7 +60,7 @@ dependencies {
     <dependencies>
         <dependency>  
             <groupId>io.github.milkdrinkers</groupId>  
-            <artifactId>java-semver</artifactId>  
+            <artifactId>javasemver</artifactId>  
             <version>LATEST_VERSION</version>  
         </dependency>  
     </dependencies>

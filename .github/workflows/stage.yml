@@ -100,8 +100,6 @@ jobs:
           retention-days: ${{ inputs.retention_days }}
           if-no-files-found: error
 
-      # Publish to maven TODO
-
   # Update version in properties file for release builds
   stage-version:
     name: "Update Project Version"
