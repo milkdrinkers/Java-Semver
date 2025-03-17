@@ -26,7 +26,7 @@ public abstract class VersionCompare {
      * Compare major, minor, patch and then pre-release data of two versions.
      *
      * @param current the current version to compare with
-     * @param other the other version to compare against
+     * @param other   the other version to compare against
      * @return the version check result
      * @apiNote Follows <a href="https://semver.org/">Semver spec</a> such that this is always true: {@code 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1}.
      */
@@ -53,7 +53,7 @@ public abstract class VersionCompare {
      * Compare pre-release data of two versions.
      *
      * @param current the current version to compare with
-     * @param other the other version to compare against
+     * @param other   the other version to compare against
      * @return the version check result
      * @apiNote Follows <a href="https://semver.org/#spec-item-11">Semver spec</a> such that this is always true: {@code 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0}.
      */
@@ -151,7 +151,7 @@ public abstract class VersionCompare {
      * Check if two versions are the same.
      *
      * @param current the current version
-     * @param other the other version
+     * @param other   the other version
      * @return true if current version is same as other version
      */
     @SuppressWarnings("unused")
@@ -163,7 +163,7 @@ public abstract class VersionCompare {
      * Check if one version is newer.
      *
      * @param current the current version
-     * @param other the other version
+     * @param other   the other version
      * @return true if current version is newer than other version
      */
     @SuppressWarnings("unused")
@@ -175,7 +175,7 @@ public abstract class VersionCompare {
      * Check if one version is older.
      *
      * @param current the current version
-     * @param other the other version
+     * @param other   the other version
      * @return true if current version is older than other version
      */
     @SuppressWarnings("unused")
@@ -187,7 +187,7 @@ public abstract class VersionCompare {
      * Check if one version is newer or same.
      *
      * @param current the current version
-     * @param other the other version
+     * @param other   the other version
      * @return true if current version is newer or equal to other version
      */
     @SuppressWarnings("unused")
@@ -199,7 +199,7 @@ public abstract class VersionCompare {
      * Check if one version is older or same.
      *
      * @param current the current version
-     * @param other the other version
+     * @param other   the other version
      * @return true if current version is older or equal to other version
      */
     @SuppressWarnings("unused")

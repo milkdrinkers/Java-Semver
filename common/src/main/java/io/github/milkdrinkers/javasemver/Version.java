@@ -37,11 +37,11 @@ public class Version extends VersionCompare implements Comparable<Version> {
     /**
      * Instantiates a new version object.
      *
-     * @param major the major version
-     * @param minor the minor version
-     * @param patch the patch version
+     * @param major      the major version
+     * @param minor      the minor version
+     * @param patch      the patch version
      * @param preRelease the pre-release version
-     * @param meta the build-meta
+     * @param meta       the build-meta
      * @implSpec Only to be used internally through builders/factories
      */
     @ApiStatus.Internal
@@ -113,9 +113,9 @@ public class Version extends VersionCompare implements Comparable<Version> {
     /**
      * Create a Version object from semantic version data.
      *
-     * @param major the major version
-     * @param minor the minor version
-     * @param patch the patch version
+     * @param major      the major version
+     * @param minor      the minor version
+     * @param patch      the patch version
      * @param preRelease the pre-release version
      * @return the semantic version
      * @throws VersionBuildException thrown if parsing the data into a version failed
@@ -128,11 +128,11 @@ public class Version extends VersionCompare implements Comparable<Version> {
     /**
      * Create a Version object from semantic version data.
      *
-     * @param major the major version
-     * @param minor the minor version
-     * @param patch the patch version
+     * @param major      the major version
+     * @param minor      the minor version
+     * @param patch      the patch version
      * @param preRelease the pre-release version
-     * @param meta the build-meta
+     * @param meta       the build-meta
      * @return the semantic version
      * @throws VersionBuildException thrown if parsing the data into a version failed
      * @apiNote Uses {@link VersionBuilder} internally
