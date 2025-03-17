@@ -2,6 +2,7 @@ package io.github.milkdrinkers.javasemver;
 
 import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Contains all methods used for comparing two {@link Version} objects according to the Semantic Versioning 2.0 specification.
@@ -56,73 +57,94 @@ public abstract class VersionCompare {
      * @return the version check result
      * @apiNote Follows <a href="https://semver.org/#spec-item-11">Semver spec</a> such that this is always true: {@code 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0}.
      */
+    @SuppressWarnings("ConstantValue")
     public static @NotNull VersionCheckResult comparePreRelease(@NotNull Version current, @NotNull Version other) {
-        final String[] currentIds = current.getPreReleaseIdentifiers();
-        final String[] otherIds = other.getPreReleaseIdentifiers();
-        final int currentSize = currentIds.length;
-        final int otherSize = otherIds.length;
+        final String[] currentIdentifiers = current.getPreReleaseIdentifiers();
+        final String[] otherIdentifiers = other.getPreReleaseIdentifiers();
 
-        // Both have no pre-release identifiers
-        if (currentSize == 0 && otherSize == 0)
-            return VersionCheckResult.EQUAL;
-
-        // One has no pre-release identifiers (Pre-releases have lower precedence than normal releases)
-        if (currentSize == 0 || otherSize == 0)
-            return currentSize == 0 ? VersionCheckResult.NEWER : VersionCheckResult.OLDER;
-
-
-        // Iterate through identifiers and compare
-        VersionCheckResult compareResult = VersionCheckResult.EQUAL;
-
-        for (int i = 0; i < Math.min(currentSize, otherSize); i++) {
-            compareResult = compareIdentifier(currentIds[i], otherIds[i]);
-
-            // Iterate until identifiers are not equal
-            if (!compareResult.equals(VersionCheckResult.EQUAL))
-                break;
+        // If one array is empty and the other isn't, the version with a pre-release has lower precedence
+        if (currentIdentifiers == null || currentIdentifiers.length == 0) {
+            if (otherIdentifiers == null || otherIdentifiers.length == 0) {
+                return VersionCheckResult.EQUAL;
+            }
+            return VersionCheckResult.NEWER; // No pre-release has higher precedence
+        } else if (otherIdentifiers == null || otherIdentifiers.length == 0) {
+            return VersionCheckResult.OLDER; // identifiers1 has pre-release, identifiers2 doesn't
         }
 
-        // Handle if the identifiers are equal (The one with more identifiers takes precedence)
-        if (compareResult.equals(VersionCheckResult.EQUAL))
-            return result(currentSize - otherSize);
+        // Compare each identifier in sequence
+        final int minLength = Math.min(currentIdentifiers.length, otherIdentifiers.length);
 
-        return compareResult;
+        for (int i = 0; i < minLength; i++) {
+            final String currentId = currentIdentifiers[i];
+            final String otherId = otherIdentifiers[i];
+
+            // Check if both identifiers are numeric
+            final boolean isCurrentNumeric = isNumeric(currentId);
+            final boolean isOtherNumeric = isNumeric(otherId);
+
+            // Rule 3: Numeric identifiers have lower precedence than non-numeric identifiers
+            if (isCurrentNumeric && !isOtherNumeric) {
+                return VersionCheckResult.OLDER;
+            } else if (!isCurrentNumeric && isOtherNumeric) {
+                return VersionCheckResult.NEWER;
+            } else if (isCurrentNumeric && isOtherNumeric) {
+                // Rule 1: Numeric comparison for numeric identifiers
+                int num1 = Integer.parseInt(currentId);
+                int num2 = Integer.parseInt(otherId);
+
+                if (num1 < num2) {
+                    return VersionCheckResult.OLDER;
+                } else if (num1 > num2) {
+                    return VersionCheckResult.NEWER;
+                }
+                // Equal, continue iter to next id
+            } else {
+                // Rule 2: Lexical comparison for non-numeric identifiers
+                int comparison = currentId.compareTo(otherId);
+
+                if (comparison < 0) {
+                    return VersionCheckResult.OLDER;
+                } else if (comparison > 0) {
+                    return VersionCheckResult.NEWER;
+                }
+                // Equal, continue iter to next id
+            }
+        }
+
+        // Rule 4: If all identifiers so far are equal, the longer array has higher precedence
+        if (currentIdentifiers.length < otherIdentifiers.length) {
+            return VersionCheckResult.OLDER;
+        } else if (currentIdentifiers.length > otherIdentifiers.length) {
+            return VersionCheckResult.NEWER;
+        }
+
+        // All identifiers are equal
+        return VersionCheckResult.EQUAL;
     }
 
     /**
-     * Compare pre-release identifiers against each-other.
+     * Checks if a string is a numeric identifier according to SemVer rules.
+     * A numeric identifier consists of only digits with no leading zeros (except for "0" itself).
      *
-     * @param currentId the current identifier to compare with
-     * @param otherId the other identifier to compare against
-     * @return the version check result
+     * @param identifier The identifier to check
+     * @return true if the identifier is numeric, false otherwise
      * @apiNote Follows <a href="https://semver.org/#spec-item-11">Semver spec</a> such that this is always true: {@code 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0}.
      */
-    public static @NotNull VersionCheckResult compareIdentifier(final @NotNull String currentId, final @NotNull String otherId) {
-        // If both identifiers are valid numbers for semver then compare
-        if (isNumber(currentId) && isNumber(otherId)) {
-            final Long currentLong = Long.valueOf(currentId);
-            final Long otherLong = Long.valueOf(otherId);
-
-            return result(currentLong.compareTo(otherLong));
-        }
-
-        // Compare identifiers lexicographically
-        return result(currentId.compareTo(otherId));
-    }
-
-    /**
-     * Check if a pre-release identifier is a valid number for semver comparison.
-     *
-     * @param identifier the identifier to check
-     * @return boolean
-     */
-    @ApiStatus.Internal
-    private static boolean isNumber(final @NotNull String identifier) {
-        // Numbers with leading zeroes are invalid in semver
-        if (identifier.startsWith("0"))
+    @SuppressWarnings("RedundantIfStatement")
+    private static boolean isNumeric(@Nullable String identifier) {
+        if (identifier == null || identifier.isEmpty())
             return false;
 
-        return identifier.chars().allMatch(Character::isDigit);
+        // Check if the string consists of only digits
+        if (!identifier.matches("\\d+"))
+            return false;
+
+        // Check for leading zeros (but "0" by itself is fine)
+        if (identifier.length() > 1 && identifier.startsWith("0"))
+            return false;
+
+        return true;
     }
 
     /**
