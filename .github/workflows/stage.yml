@@ -76,7 +76,7 @@ jobs:
         shell: bash
         run: |
           set +e  # Don't exit immediately on error
-          ./gradlew publishAllPublicationsToMavenCentralRepository -PaltVer=${{ steps.version.outputs.version_snapshot }} -x test ${{ inputs.gradle_build_options }}
+          ./gradlew build -PaltVer=${{ steps.version.outputs.version_snapshot }} -x test ${{ inputs.gradle_build_options }}
           BUILD_EXIT_CODE=$?
           
           if [ $BUILD_EXIT_CODE -ne 0 ]; then
