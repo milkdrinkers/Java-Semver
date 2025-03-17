@@ -1,7 +1,8 @@
+import com.vanniktech.maven.publish.SonatypeHost
 import java.time.Instant
 
 plugins {
-    alias(libs.plugins.maven.deployer)
+    alias(libs.plugins.publisher)
 }
 
 applyCustomVersion()
@@ -42,52 +43,42 @@ tasks {
     }
 }
 
-deployer {
-    release {
-        version.set("${rootProject.version}")
+mavenPublishing {
+    coordinates("io.github.milkdrinkers", "javasemver", "${rootProject.version}")
+
+    pom {
+        name.set(rootProject.name)
         description.set(rootProject.description.orEmpty())
-    }
+        url.set("https://github.com/milkdrinkers/Java-Semver")
+        inceptionYear.set("2025")
 
-    projectInfo {
-        groupId = "io.github.milkdrinkers"
-        artifactId = "javasemver"
-        version = "${rootProject.version}"
+        licenses {
+            license {
+                name.set("MIT License")
+                url.set("https://opensource.org/licenses/MIT")
+                distribution.set("https://opensource.org/licenses/MIT")
+            }
+        }
 
-        name = rootProject.name
-        description = rootProject.description.orEmpty()
-        url = "https://github.com/milkdrinkers/Java-Semver"
+        developers {
+            developer {
+                id.set("darksaid98")
+                name.set("darksaid98")
+                url.set("https://github.com/darksaid98")
+                organization.set("Milkdrinkers")
+            }
+        }
 
         scm {
-            connection = "scm:git:git://github.com/milkdrinkers/Java-Semver.git"
-            developerConnection = "scm:git:ssh://github.com:milkdrinkers/Java-Semver.git"
-            url = "https://github.com/milkdrinkers/Java-Semver"
-        }
-
-        license("MIT License", "https://opensource.org/licenses/MIT")
-
-        developer({
-            name.set("darksaid98")
-            email.set("darksaid9889@gmail.com")
-            url.set("https://github.com/darksaid98")
-            organization.set("Milkdrinkers")
-        })
-    }
-
-    content {
-        component {
-            fromJava()
+            url.set("https://github.com/milkdrinkers/Java-Semver")
+            connection.set("scm:git:git://github.com/milkdrinkers/Java-Semver.git")
+            developerConnection.set("scm:git:ssh://github.com:milkdrinkers/Java-Semver.git")
         }
     }
 
-    centralPortalSpec {
-        auth.user.set(secret("MAVEN_USERNAME"))
-        auth.password.set(secret("MAVEN_PASSWORD"))
-    }
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
 
-    signing {
-        key.set(secret("GPG_KEY"))
-        password.set(secret("GPG_PASSWORD"))
-    }
+    signAllPublications()
 }
 
 fun applyCustomVersion() {
