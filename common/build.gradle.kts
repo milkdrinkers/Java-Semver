@@ -55,12 +55,12 @@ deployer {
 
         name = rootProject.name
         description = rootProject.description.orEmpty()
-        url = "https://github.com/milkdrinkers/java-semver"
+        url = "https://github.com/milkdrinkers/Java-Semver"
 
         scm {
-            connection = "scm:git:git://github.com/milkdrinkers/java-semver.git"
-            developerConnection = "scm:git:ssh://github.com:milkdrinkers/java-semver.git"
-            url = "https://github.com/milkdrinkers/java-semver"
+            connection = "scm:git:git://github.com/milkdrinkers/Java-Semver.git"
+            developerConnection = "scm:git:ssh://github.com:milkdrinkers/Java-Semver.git"
+            url = "https://github.com/milkdrinkers/Java-Semver"
         }
 
         license("MIT License", "https://opensource.org/licenses/MIT")
