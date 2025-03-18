@@ -46,11 +46,6 @@ tasks {
 }
 
 mavenPublishing {
-    configure(JavaLibrary(
-        javadocJar = JavadocJar.None(),
-        sourcesJar = true
-    ))
-
     coordinates("io.github.milkdrinkers", "javasemver", "${rootProject.version}")
 
     pom {
@@ -83,9 +78,19 @@ mavenPublishing {
         }
     }
 
+    configure(JavaLibrary(
+        javadocJar = JavadocJar.None(), // The mavenPublishing plugin shouldn't generate another javadoc jar
+        sourcesJar = true
+    ))
+
+    // Publish to Maven Central
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
 
+    // Sign all publications
     signAllPublications()
+
+    // Skip signing for local tasks
+    tasks.withType<Sign>().configureEach { onlyIf { !gradle.taskGraph.allTasks.any { it is PublishToMavenLocal } } }
 }
 
 fun applyCustomVersion() {
