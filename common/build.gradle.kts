@@ -1,3 +1,5 @@
+import com.vanniktech.maven.publish.JavaLibrary
+import com.vanniktech.maven.publish.JavadocJar
 import com.vanniktech.maven.publish.SonatypeHost
 import java.time.Instant
 
@@ -44,6 +46,11 @@ tasks {
 }
 
 mavenPublishing {
+    configure(JavaLibrary(
+        javadocJar = JavadocJar.None(),
+        sourcesJar = true
+    ))
+
     coordinates("io.github.milkdrinkers", "javasemver", "${rootProject.version}")
 
     pom {
