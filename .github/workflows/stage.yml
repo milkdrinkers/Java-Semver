@@ -102,7 +102,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Snapshot-${{ github.run_number }}
-          path: ${{ github.workspace }}/build/libs/
+          path: ${{ github.workspace }}/**/build/libs/*.jar
           retention-days: ${{ inputs.retention_days }}
           if-no-files-found: error
 
@@ -188,6 +188,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Release
-          path: ${{ github.workspace }}/build/libs/
+          path: ${{ github.workspace }}/**/build/libs/*.jar
           retention-days: ${{ inputs.retention_days }}
           if-no-files-found: error
