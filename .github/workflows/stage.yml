@@ -89,7 +89,8 @@ jobs:
         if: ${{ inputs.generate_attestations }}
         uses: actions/attest-build-provenance@v2
         with:
-          subject-path: "${{ github.workspace }}/build/libs/*"
+          subject-path: |
+            ${{ github.workspace }}/**/build/libs/*.jar
 
       # Upload the snapshot artifacts
       - name: Upload Snapshot Artifacts
@@ -175,7 +176,8 @@ jobs:
         if: ${{ inputs.generate_attestations }}
         uses: actions/attest-build-provenance@v2
         with:
-          subject-path: "${{ github.workspace }}/build/libs/*"
+          subject-path: |
+            ${{ github.workspace }}/**/build/libs/*.jar
 
       - name: Upload Release Artifacts
         uses: actions/upload-artifact@v4
