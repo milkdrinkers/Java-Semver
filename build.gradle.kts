@@ -12,6 +12,9 @@ applyCustomVersion()
 subprojects {
     apply(plugin = "java-library")
 
+    project.version = rootProject.version
+    project.description = rootProject.description
+
     repositories {
         mavenCentral()
     }
