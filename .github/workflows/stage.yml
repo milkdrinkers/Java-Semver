@@ -101,6 +101,24 @@ jobs:
           retention-days: ${{ inputs.retention_days }}
           if-no-files-found: error
 
+      # Build with Gradle and Publish Snapshot
+      - name: Publish Snapshot
+        shell: bash
+        run: |
+          set +e  # Don't exit immediately on error
+          ./gradlew publish --no-configuration-cache -PaltVer=${{ steps.version.outputs.version_snapshot_maven }} -x test ${{ inputs.gradle_build_options }}
+          BUILD_EXIT_CODE=$?
+
+          if [ $BUILD_EXIT_CODE -ne 0 ]; then
+            echo "::error::Build failed with exit code $BUILD_EXIT_CODE"
+            exit $BUILD_EXIT_CODE
+          fi
+        env:
+          ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
+          ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
+          ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.MAVEN_CENTRAL_GPG_SECRET_KEY }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.MAVEN_CENTRAL_GPG_SECRET_KEY_PASSWORD }}
+
   # Update version in properties file for release builds
   stage-version:
     name: "Update Project Version"
@@ -154,7 +172,7 @@ jobs:
         run: |
           echo "version=${{ github.ref_name }}" >> $GITHUB_OUTPUT
 
-      # Build with Gradle
+      # Build with Gradle and Publish
       - name: Build with Gradle & Publish
         shell: bash
         run: |
@@ -186,5 +204,3 @@ jobs:
           path: ${{ github.workspace }}/build/libs/
           retention-days: ${{ inputs.retention_days }}
           if-no-files-found: error
-
-      # Publish to maven TODO
