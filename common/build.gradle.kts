@@ -95,7 +95,7 @@ mavenPublishing {
 
 fun applyCustomVersion() {
     // Apply custom version arg or append snapshot version
-    val ver = properties["altVer"]?.toString() ?: "${rootProject.version}-SNAPSHOT-${Instant.now().epochSecond}"
+    val ver = properties["altVer"]?.toString() ?: "${rootProject.version}-SNAPSHOT.${Instant.now().epochSecond}"
 
     // Strip prefixed "v" from version tag
     rootProject.version = (if (ver.first().equals('v', true)) ver.substring(1) else ver.uppercase()).uppercase()
