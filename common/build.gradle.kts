@@ -7,7 +7,16 @@ plugins {
 }
 
 mavenPublishing {
-    coordinates("io.github.milkdrinkers", "javasemver", "${rootProject.version}")
+    coordinates(
+        groupId = "io.github.milkdrinkers",
+        artifactId = "javasemver",
+        version = version.toString().let { originalVersion ->
+            if (!originalVersion.contains("-SNAPSHOT"))
+                originalVersion
+            else
+                originalVersion.substringBeforeLast("-SNAPSHOT") + "-SNAPSHOT" // Force append just -SNAPSHOT if snapshot version
+        }
+    )
 
     pom {
         name.set(rootProject.name)

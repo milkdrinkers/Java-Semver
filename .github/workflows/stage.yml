@@ -71,18 +71,23 @@ jobs:
         with:
           snapshot_suffix: ${{ inputs.snapshot_suffix }}
 
-      # Build the project with the snapshot version
+      # Build the project with the snapshot version and publish to maven central
       - name: Build with Gradle
         shell: bash
         run: |
           set +e  # Don't exit immediately on error
-          ./gradlew build -PaltVer=${{ steps.version.outputs.version_snapshot }} -x test ${{ inputs.gradle_build_options }}
+          ./gradlew publish --no-configuration-cache -PaltVer=${{ steps.version.outputs.version_snapshot }} -x test ${{ inputs.gradle_build_options }}
           BUILD_EXIT_CODE=$?
           
           if [ $BUILD_EXIT_CODE -ne 0 ]; then
             echo "::error::Build failed with exit code $BUILD_EXIT_CODE"
             exit $BUILD_EXIT_CODE
           fi
+        env:
+          ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
+          ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
+          ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.MAVEN_CENTRAL_GPG_SECRET_KEY }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.MAVEN_CENTRAL_GPG_SECRET_KEY_PASSWORD }}
 
       # Generate build provenance attestations if enabled
       - name: Generate Build Provenance Attestations
@@ -100,24 +105,6 @@ jobs:
           path: ${{ github.workspace }}/build/libs/
           retention-days: ${{ inputs.retention_days }}
           if-no-files-found: error
-
-      # Build with Gradle and Publish Snapshot
-      - name: Publish Snapshot
-        shell: bash
-        run: |
-          set +e  # Don't exit immediately on error
-          ./gradlew publish --no-configuration-cache -PaltVer=${{ steps.version.outputs.version_snapshot_maven }} -x test ${{ inputs.gradle_build_options }}
-          BUILD_EXIT_CODE=$?
-
-          if [ $BUILD_EXIT_CODE -ne 0 ]; then
-            echo "::error::Build failed with exit code $BUILD_EXIT_CODE"
-            exit $BUILD_EXIT_CODE
-          fi
-        env:
-          ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
-          ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
-          ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.MAVEN_CENTRAL_GPG_SECRET_KEY }}
-          ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.MAVEN_CENTRAL_GPG_SECRET_KEY_PASSWORD }}
 
   # Update version in properties file for release builds
   stage-version:
