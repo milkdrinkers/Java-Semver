@@ -49,8 +49,7 @@ mavenPublishing {
     }
 
     configure(JavaLibrary(
-        javadocJar = JavadocJar.None(), // The mavenPublishing plugin shouldn't generate another javadoc jar
-        sourcesJar = true
+        javadocJar = JavadocJar.None(), // We want to use our own javadoc jar
     ))
 
     // Publish to Maven Central
