@@ -9,6 +9,12 @@ plugins {
 
 applyCustomVersion()
 
+tasks {
+    jar {
+        enabled = false
+    }
+}
+
 subprojects {
     apply(plugin = "java-library")
 
