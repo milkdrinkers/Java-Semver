@@ -26,13 +26,13 @@
 
 ## 🌟 Features
 
-- ✅ **Full SemVer 2.0.0 Compliance**: Strict adherence to the official specification.
-- 🛠 **Zero Dependencies**: Lightweight and self-contained.
-- ☕ **Java 8+ compatible**: Compatible with legacy and modern Java projects.
-- 🧩 **Simple API**: Intuitive methods for parsing and comparing versions.
-- 🛡️ **Error Handling**: Gracefully handles invalid versions through exceptions.
-- 🧪 **Well-tested**: Robust JUnit test coverage ensures reliability.
-- ⚡ **Pre-release & Build Metadata**: Supports `1.0.0-alpha+001` and other complex formats.
+- **Full SemVer 2.0.0 Compliance**: Strict adherence to the official specification.
+- **Zero Dependencies**: Lightweight and self-contained.
+- **Java 8+ compatible**: Compatible with legacy and modern Java projects.
+- **Simple API**: Intuitive methods for parsing and comparing versions.
+- **Error Handling**: Gracefully handles invalid versions through exceptions.
+- **Well-tested**: Robust JUnit test coverage ensures reliability.
+- **Pre-release & Build Metadata**: Supports `1.0.0-alpha+001` and other complex formats.
 
 ## 📦 Installation
 
