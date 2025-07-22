@@ -18,6 +18,9 @@
         <img alt="GitHub Issues" src="https://img.shields.io/github/issues/milkdrinkers/Java-Semver?style=for-the-badge&labelColor=141417">
     </a>
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/milkdrinkers/Java-Semver?style=for-the-badge&labelColor=141417">
+    <a href="https://discord.gg/cG5uWvUcM6">
+        <img alt="Discord Server" src="https://img.shields.io/discord/1008300159333040158?style=for-the-badge&logo=discord&logoColor=ffffff&label=discord&labelColor=141417&color=%235865F2">
+    </a>
 </p>
 
 **Java-Semver** is a lightweight, zero-dependency Java library that provides full support for **Semantic Versioning 2.0.0**. Designed for simplicity and reliability, it enables parsing and comparing semantic versions (`major.minor.patch-preRelease+build`) effortlessly. Perfect for applications requiring precise version management.
