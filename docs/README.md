@@ -11,7 +11,7 @@
 <a href="https://central.sonatype.com/artifact/io.github.milkdrinkers/javasemver">
     <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/io.github.milkdrinkers/javasemver?style=for-the-badge&labelColor=141417">
 </a>
-<a href="https://milkdrinkers.athyrium.eu/javasemver">
+<a href="https://docs.milkdrinkers.dev/javasemver">
     <img alt="Documentation" src="https://img.shields.io/badge/DOCUMENTATION-900C3F?style=for-the-badge&labelColor=141417">
 </a>
 <a href="https://javadoc.io/doc/io.github.milkdrinkers/javasemver">
@@ -96,7 +96,7 @@ Version.isOlder(currentVersion, latestVersion); // true
 ## 📚 Documentation
 
 - [Full Javadoc Documentation](https://javadoc.io/doc/io.github.milkdrinkers/javasemver)
-- [Documentation](https://milkdrinkers.athyrium.eu/javasemver)
+- [Documentation](https://docs.milkdrinkers.dev/javasemver)
 - [Maven Central](https://central.sonatype.com/artifact/io.github.milkdrinkers/javasemver)
 
 ---
