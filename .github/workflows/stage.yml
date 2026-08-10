@@ -52,7 +52,7 @@ jobs:
     runs-on: ${{ inputs.os }}
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1 # Shallow clone for faster checkout
 
@@ -92,14 +92,14 @@ jobs:
       # Generate build provenance attestations if enabled
       - name: Generate Build Provenance Attestations
         if: ${{ inputs.generate_attestations }}
-        uses: actions/attest-build-provenance@v3
+        uses: actions/attest-build-provenance@v4
         with:
           subject-path: |
             ${{ github.workspace }}/**/build/libs/*.jar
 
       # Upload the snapshot artifacts
       - name: Upload Snapshot Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: Snapshot-${{ github.run_number }}
           path: ${{ github.workspace }}/**/build/libs/*.jar
@@ -115,7 +115,7 @@ jobs:
       # Checkout repository
       - name: Checkout Repository
         if: ${{ !contains(github.ref_name, inputs.prerelease_suffix) }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1 # Shallow clone for faster checkout
 
@@ -141,7 +141,7 @@ jobs:
     runs-on: ${{ inputs.os }}
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1 # Shallow clone for faster checkout
 
@@ -179,13 +179,13 @@ jobs:
 
       - name: Generate Build Provenance Attestations
         if: ${{ inputs.generate_attestations }}
-        uses: actions/attest-build-provenance@v3
+        uses: actions/attest-build-provenance@v4
         with:
           subject-path: |
             ${{ github.workspace }}/**/build/libs/*.jar
 
       - name: Upload Release Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: Release
           path: ${{ github.workspace }}/**/build/libs/*.jar
