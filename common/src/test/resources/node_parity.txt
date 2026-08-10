@@ -1,0 +1,2183 @@
+satisfies	0.0.0	1.2.3	false
+gtr	0.0.0	1.2.3	false
+ltr	0.0.0	1.2.3	true
+satisfies	0.0.0	=1.2.3	false
+gtr	0.0.0	=1.2.3	false
+ltr	0.0.0	=1.2.3	true
+satisfies	0.0.0	>1.2.3	false
+gtr	0.0.0	>1.2.3	false
+ltr	0.0.0	>1.2.3	true
+satisfies	0.0.0	>=1.2.3	false
+gtr	0.0.0	>=1.2.3	false
+ltr	0.0.0	>=1.2.3	true
+satisfies	0.0.0	<1.2.3	true
+gtr	0.0.0	<1.2.3	false
+ltr	0.0.0	<1.2.3	false
+satisfies	0.0.0	<=1.2.3	true
+gtr	0.0.0	<=1.2.3	false
+ltr	0.0.0	<=1.2.3	false
+satisfies	0.0.0	^1.2.3	false
+gtr	0.0.0	^1.2.3	false
+ltr	0.0.0	^1.2.3	true
+satisfies	0.0.0	~1.2.3	false
+gtr	0.0.0	~1.2.3	false
+ltr	0.0.0	~1.2.3	true
+satisfies	0.0.0	^0.2.3	false
+gtr	0.0.0	^0.2.3	false
+ltr	0.0.0	^0.2.3	true
+satisfies	0.0.0	^0.0.3	false
+gtr	0.0.0	^0.0.3	false
+ltr	0.0.0	^0.0.3	true
+satisfies	0.0.0	1.2.x	false
+gtr	0.0.0	1.2.x	false
+ltr	0.0.0	1.2.x	true
+satisfies	0.0.0	1.x	false
+gtr	0.0.0	1.x	false
+ltr	0.0.0	1.x	true
+satisfies	0.0.0	*	true
+gtr	0.0.0	*	false
+ltr	0.0.0	*	false
+satisfies	0.0.0	>=1.2.3 <2.0.0	false
+gtr	0.0.0	>=1.2.3 <2.0.0	false
+ltr	0.0.0	>=1.2.3 <2.0.0	true
+satisfies	0.0.0	1.2.3 - 2.3.4	false
+gtr	0.0.0	1.2.3 - 2.3.4	false
+ltr	0.0.0	1.2.3 - 2.3.4	true
+satisfies	0.0.0	1.2.3 || >=2.0.0	false
+gtr	0.0.0	1.2.3 || >=2.0.0	false
+ltr	0.0.0	1.2.3 || >=2.0.0	true
+satisfies	0.0.0	^1.2.3-alpha	false
+gtr	0.0.0	^1.2.3-alpha	false
+ltr	0.0.0	^1.2.3-alpha	true
+satisfies	0.0.0	~1.2	false
+gtr	0.0.0	~1.2	false
+ltr	0.0.0	~1.2	true
+satisfies	0.0.0	^1	false
+gtr	0.0.0	^1	false
+ltr	0.0.0	^1	true
+satisfies	1.0.0	1.2.3	false
+gtr	1.0.0	1.2.3	false
+ltr	1.0.0	1.2.3	true
+satisfies	1.0.0	=1.2.3	false
+gtr	1.0.0	=1.2.3	false
+ltr	1.0.0	=1.2.3	true
+satisfies	1.0.0	>1.2.3	false
+gtr	1.0.0	>1.2.3	false
+ltr	1.0.0	>1.2.3	true
+satisfies	1.0.0	>=1.2.3	false
+gtr	1.0.0	>=1.2.3	false
+ltr	1.0.0	>=1.2.3	true
+satisfies	1.0.0	<1.2.3	true
+gtr	1.0.0	<1.2.3	false
+ltr	1.0.0	<1.2.3	false
+satisfies	1.0.0	<=1.2.3	true
+gtr	1.0.0	<=1.2.3	false
+ltr	1.0.0	<=1.2.3	false
+satisfies	1.0.0	^1.2.3	false
+gtr	1.0.0	^1.2.3	false
+ltr	1.0.0	^1.2.3	true
+satisfies	1.0.0	~1.2.3	false
+gtr	1.0.0	~1.2.3	false
+ltr	1.0.0	~1.2.3	true
+satisfies	1.0.0	^0.2.3	false
+gtr	1.0.0	^0.2.3	true
+ltr	1.0.0	^0.2.3	false
+satisfies	1.0.0	^0.0.3	false
+gtr	1.0.0	^0.0.3	true
+ltr	1.0.0	^0.0.3	false
+satisfies	1.0.0	1.2.x	false
+gtr	1.0.0	1.2.x	false
+ltr	1.0.0	1.2.x	true
+satisfies	1.0.0	1.x	true
+gtr	1.0.0	1.x	false
+ltr	1.0.0	1.x	false
+satisfies	1.0.0	*	true
+gtr	1.0.0	*	false
+ltr	1.0.0	*	false
+satisfies	1.0.0	>=1.2.3 <2.0.0	false
+gtr	1.0.0	>=1.2.3 <2.0.0	false
+ltr	1.0.0	>=1.2.3 <2.0.0	true
+satisfies	1.0.0	1.2.3 - 2.3.4	false
+gtr	1.0.0	1.2.3 - 2.3.4	false
+ltr	1.0.0	1.2.3 - 2.3.4	true
+satisfies	1.0.0	1.2.3 || >=2.0.0	false
+gtr	1.0.0	1.2.3 || >=2.0.0	false
+ltr	1.0.0	1.2.3 || >=2.0.0	true
+satisfies	1.0.0	^1.2.3-alpha	false
+gtr	1.0.0	^1.2.3-alpha	false
+ltr	1.0.0	^1.2.3-alpha	true
+satisfies	1.0.0	~1.2	false
+gtr	1.0.0	~1.2	false
+ltr	1.0.0	~1.2	true
+satisfies	1.0.0	^1	true
+gtr	1.0.0	^1	false
+ltr	1.0.0	^1	false
+satisfies	1.2.3	1.2.3	true
+gtr	1.2.3	1.2.3	false
+ltr	1.2.3	1.2.3	false
+satisfies	1.2.3	=1.2.3	true
+gtr	1.2.3	=1.2.3	false
+ltr	1.2.3	=1.2.3	false
+satisfies	1.2.3	>1.2.3	false
+gtr	1.2.3	>1.2.3	false
+ltr	1.2.3	>1.2.3	true
+satisfies	1.2.3	>=1.2.3	true
+gtr	1.2.3	>=1.2.3	false
+ltr	1.2.3	>=1.2.3	false
+satisfies	1.2.3	<1.2.3	false
+gtr	1.2.3	<1.2.3	true
+ltr	1.2.3	<1.2.3	false
+satisfies	1.2.3	<=1.2.3	true
+gtr	1.2.3	<=1.2.3	false
+ltr	1.2.3	<=1.2.3	false
+satisfies	1.2.3	^1.2.3	true
+gtr	1.2.3	^1.2.3	false
+ltr	1.2.3	^1.2.3	false
+satisfies	1.2.3	~1.2.3	true
+gtr	1.2.3	~1.2.3	false
+ltr	1.2.3	~1.2.3	false
+satisfies	1.2.3	^0.2.3	false
+gtr	1.2.3	^0.2.3	true
+ltr	1.2.3	^0.2.3	false
+satisfies	1.2.3	^0.0.3	false
+gtr	1.2.3	^0.0.3	true
+ltr	1.2.3	^0.0.3	false
+satisfies	1.2.3	1.2.x	true
+gtr	1.2.3	1.2.x	false
+ltr	1.2.3	1.2.x	false
+satisfies	1.2.3	1.x	true
+gtr	1.2.3	1.x	false
+ltr	1.2.3	1.x	false
+satisfies	1.2.3	*	true
+gtr	1.2.3	*	false
+ltr	1.2.3	*	false
+satisfies	1.2.3	>=1.2.3 <2.0.0	true
+gtr	1.2.3	>=1.2.3 <2.0.0	false
+ltr	1.2.3	>=1.2.3 <2.0.0	false
+satisfies	1.2.3	1.2.3 - 2.3.4	true
+gtr	1.2.3	1.2.3 - 2.3.4	false
+ltr	1.2.3	1.2.3 - 2.3.4	false
+satisfies	1.2.3	1.2.3 || >=2.0.0	true
+gtr	1.2.3	1.2.3 || >=2.0.0	false
+ltr	1.2.3	1.2.3 || >=2.0.0	false
+satisfies	1.2.3	^1.2.3-alpha	true
+gtr	1.2.3	^1.2.3-alpha	false
+ltr	1.2.3	^1.2.3-alpha	false
+satisfies	1.2.3	~1.2	true
+gtr	1.2.3	~1.2	false
+ltr	1.2.3	~1.2	false
+satisfies	1.2.3	^1	true
+gtr	1.2.3	^1	false
+ltr	1.2.3	^1	false
+satisfies	1.2.4	1.2.3	false
+gtr	1.2.4	1.2.3	true
+ltr	1.2.4	1.2.3	false
+satisfies	1.2.4	=1.2.3	false
+gtr	1.2.4	=1.2.3	true
+ltr	1.2.4	=1.2.3	false
+satisfies	1.2.4	>1.2.3	true
+gtr	1.2.4	>1.2.3	false
+ltr	1.2.4	>1.2.3	false
+satisfies	1.2.4	>=1.2.3	true
+gtr	1.2.4	>=1.2.3	false
+ltr	1.2.4	>=1.2.3	false
+satisfies	1.2.4	<1.2.3	false
+gtr	1.2.4	<1.2.3	true
+ltr	1.2.4	<1.2.3	false
+satisfies	1.2.4	<=1.2.3	false
+gtr	1.2.4	<=1.2.3	true
+ltr	1.2.4	<=1.2.3	false
+satisfies	1.2.4	^1.2.3	true
+gtr	1.2.4	^1.2.3	false
+ltr	1.2.4	^1.2.3	false
+satisfies	1.2.4	~1.2.3	true
+gtr	1.2.4	~1.2.3	false
+ltr	1.2.4	~1.2.3	false
+satisfies	1.2.4	^0.2.3	false
+gtr	1.2.4	^0.2.3	true
+ltr	1.2.4	^0.2.3	false
+satisfies	1.2.4	^0.0.3	false
+gtr	1.2.4	^0.0.3	true
+ltr	1.2.4	^0.0.3	false
+satisfies	1.2.4	1.2.x	true
+gtr	1.2.4	1.2.x	false
+ltr	1.2.4	1.2.x	false
+satisfies	1.2.4	1.x	true
+gtr	1.2.4	1.x	false
+ltr	1.2.4	1.x	false
+satisfies	1.2.4	*	true
+gtr	1.2.4	*	false
+ltr	1.2.4	*	false
+satisfies	1.2.4	>=1.2.3 <2.0.0	true
+gtr	1.2.4	>=1.2.3 <2.0.0	false
+ltr	1.2.4	>=1.2.3 <2.0.0	false
+satisfies	1.2.4	1.2.3 - 2.3.4	true
+gtr	1.2.4	1.2.3 - 2.3.4	false
+ltr	1.2.4	1.2.3 - 2.3.4	false
+satisfies	1.2.4	1.2.3 || >=2.0.0	false
+gtr	1.2.4	1.2.3 || >=2.0.0	false
+ltr	1.2.4	1.2.3 || >=2.0.0	false
+satisfies	1.2.4	^1.2.3-alpha	true
+gtr	1.2.4	^1.2.3-alpha	false
+ltr	1.2.4	^1.2.3-alpha	false
+satisfies	1.2.4	~1.2	true
+gtr	1.2.4	~1.2	false
+ltr	1.2.4	~1.2	false
+satisfies	1.2.4	^1	true
+gtr	1.2.4	^1	false
+ltr	1.2.4	^1	false
+satisfies	1.3.0	1.2.3	false
+gtr	1.3.0	1.2.3	true
+ltr	1.3.0	1.2.3	false
+satisfies	1.3.0	=1.2.3	false
+gtr	1.3.0	=1.2.3	true
+ltr	1.3.0	=1.2.3	false
+satisfies	1.3.0	>1.2.3	true
+gtr	1.3.0	>1.2.3	false
+ltr	1.3.0	>1.2.3	false
+satisfies	1.3.0	>=1.2.3	true
+gtr	1.3.0	>=1.2.3	false
+ltr	1.3.0	>=1.2.3	false
+satisfies	1.3.0	<1.2.3	false
+gtr	1.3.0	<1.2.3	true
+ltr	1.3.0	<1.2.3	false
+satisfies	1.3.0	<=1.2.3	false
+gtr	1.3.0	<=1.2.3	true
+ltr	1.3.0	<=1.2.3	false
+satisfies	1.3.0	^1.2.3	true
+gtr	1.3.0	^1.2.3	false
+ltr	1.3.0	^1.2.3	false
+satisfies	1.3.0	~1.2.3	false
+gtr	1.3.0	~1.2.3	true
+ltr	1.3.0	~1.2.3	false
+satisfies	1.3.0	^0.2.3	false
+gtr	1.3.0	^0.2.3	true
+ltr	1.3.0	^0.2.3	false
+satisfies	1.3.0	^0.0.3	false
+gtr	1.3.0	^0.0.3	true
+ltr	1.3.0	^0.0.3	false
+satisfies	1.3.0	1.2.x	false
+gtr	1.3.0	1.2.x	true
+ltr	1.3.0	1.2.x	false
+satisfies	1.3.0	1.x	true
+gtr	1.3.0	1.x	false
+ltr	1.3.0	1.x	false
+satisfies	1.3.0	*	true
+gtr	1.3.0	*	false
+ltr	1.3.0	*	false
+satisfies	1.3.0	>=1.2.3 <2.0.0	true
+gtr	1.3.0	>=1.2.3 <2.0.0	false
+ltr	1.3.0	>=1.2.3 <2.0.0	false
+satisfies	1.3.0	1.2.3 - 2.3.4	true
+gtr	1.3.0	1.2.3 - 2.3.4	false
+ltr	1.3.0	1.2.3 - 2.3.4	false
+satisfies	1.3.0	1.2.3 || >=2.0.0	false
+gtr	1.3.0	1.2.3 || >=2.0.0	false
+ltr	1.3.0	1.2.3 || >=2.0.0	false
+satisfies	1.3.0	^1.2.3-alpha	true
+gtr	1.3.0	^1.2.3-alpha	false
+ltr	1.3.0	^1.2.3-alpha	false
+satisfies	1.3.0	~1.2	false
+gtr	1.3.0	~1.2	true
+ltr	1.3.0	~1.2	false
+satisfies	1.3.0	^1	true
+gtr	1.3.0	^1	false
+ltr	1.3.0	^1	false
+satisfies	2.0.0	1.2.3	false
+gtr	2.0.0	1.2.3	true
+ltr	2.0.0	1.2.3	false
+satisfies	2.0.0	=1.2.3	false
+gtr	2.0.0	=1.2.3	true
+ltr	2.0.0	=1.2.3	false
+satisfies	2.0.0	>1.2.3	true
+gtr	2.0.0	>1.2.3	false
+ltr	2.0.0	>1.2.3	false
+satisfies	2.0.0	>=1.2.3	true
+gtr	2.0.0	>=1.2.3	false
+ltr	2.0.0	>=1.2.3	false
+satisfies	2.0.0	<1.2.3	false
+gtr	2.0.0	<1.2.3	true
+ltr	2.0.0	<1.2.3	false
+satisfies	2.0.0	<=1.2.3	false
+gtr	2.0.0	<=1.2.3	true
+ltr	2.0.0	<=1.2.3	false
+satisfies	2.0.0	^1.2.3	false
+gtr	2.0.0	^1.2.3	true
+ltr	2.0.0	^1.2.3	false
+satisfies	2.0.0	~1.2.3	false
+gtr	2.0.0	~1.2.3	true
+ltr	2.0.0	~1.2.3	false
+satisfies	2.0.0	^0.2.3	false
+gtr	2.0.0	^0.2.3	true
+ltr	2.0.0	^0.2.3	false
+satisfies	2.0.0	^0.0.3	false
+gtr	2.0.0	^0.0.3	true
+ltr	2.0.0	^0.0.3	false
+satisfies	2.0.0	1.2.x	false
+gtr	2.0.0	1.2.x	true
+ltr	2.0.0	1.2.x	false
+satisfies	2.0.0	1.x	false
+gtr	2.0.0	1.x	true
+ltr	2.0.0	1.x	false
+satisfies	2.0.0	*	true
+gtr	2.0.0	*	false
+ltr	2.0.0	*	false
+satisfies	2.0.0	>=1.2.3 <2.0.0	false
+gtr	2.0.0	>=1.2.3 <2.0.0	true
+ltr	2.0.0	>=1.2.3 <2.0.0	false
+satisfies	2.0.0	1.2.3 - 2.3.4	true
+gtr	2.0.0	1.2.3 - 2.3.4	false
+ltr	2.0.0	1.2.3 - 2.3.4	false
+satisfies	2.0.0	1.2.3 || >=2.0.0	true
+gtr	2.0.0	1.2.3 || >=2.0.0	false
+ltr	2.0.0	1.2.3 || >=2.0.0	false
+satisfies	2.0.0	^1.2.3-alpha	false
+gtr	2.0.0	^1.2.3-alpha	true
+ltr	2.0.0	^1.2.3-alpha	false
+satisfies	2.0.0	~1.2	false
+gtr	2.0.0	~1.2	true
+ltr	2.0.0	~1.2	false
+satisfies	2.0.0	^1	false
+gtr	2.0.0	^1	true
+ltr	2.0.0	^1	false
+satisfies	1.0.0-alpha	1.2.3	false
+gtr	1.0.0-alpha	1.2.3	false
+ltr	1.0.0-alpha	1.2.3	true
+satisfies	1.0.0-alpha	=1.2.3	false
+gtr	1.0.0-alpha	=1.2.3	false
+ltr	1.0.0-alpha	=1.2.3	true
+satisfies	1.0.0-alpha	>1.2.3	false
+gtr	1.0.0-alpha	>1.2.3	false
+ltr	1.0.0-alpha	>1.2.3	true
+satisfies	1.0.0-alpha	>=1.2.3	false
+gtr	1.0.0-alpha	>=1.2.3	false
+ltr	1.0.0-alpha	>=1.2.3	true
+satisfies	1.0.0-alpha	<1.2.3	false
+gtr	1.0.0-alpha	<1.2.3	true
+ltr	1.0.0-alpha	<1.2.3	false
+satisfies	1.0.0-alpha	<=1.2.3	false
+gtr	1.0.0-alpha	<=1.2.3	true
+ltr	1.0.0-alpha	<=1.2.3	false
+satisfies	1.0.0-alpha	^1.2.3	false
+gtr	1.0.0-alpha	^1.2.3	false
+ltr	1.0.0-alpha	^1.2.3	true
+satisfies	1.0.0-alpha	~1.2.3	false
+gtr	1.0.0-alpha	~1.2.3	false
+ltr	1.0.0-alpha	~1.2.3	true
+satisfies	1.0.0-alpha	^0.2.3	false
+gtr	1.0.0-alpha	^0.2.3	true
+ltr	1.0.0-alpha	^0.2.3	false
+satisfies	1.0.0-alpha	^0.0.3	false
+gtr	1.0.0-alpha	^0.0.3	true
+ltr	1.0.0-alpha	^0.0.3	false
+satisfies	1.0.0-alpha	1.2.x	false
+gtr	1.0.0-alpha	1.2.x	false
+ltr	1.0.0-alpha	1.2.x	true
+satisfies	1.0.0-alpha	1.x	false
+gtr	1.0.0-alpha	1.x	false
+ltr	1.0.0-alpha	1.x	true
+satisfies	1.0.0-alpha	*	false
+gtr	1.0.0-alpha	*	false
+ltr	1.0.0-alpha	*	true
+satisfies	1.0.0-alpha	>=1.2.3 <2.0.0	false
+gtr	1.0.0-alpha	>=1.2.3 <2.0.0	false
+ltr	1.0.0-alpha	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-alpha	1.2.3 - 2.3.4	false
+gtr	1.0.0-alpha	1.2.3 - 2.3.4	false
+ltr	1.0.0-alpha	1.2.3 - 2.3.4	true
+satisfies	1.0.0-alpha	1.2.3 || >=2.0.0	false
+gtr	1.0.0-alpha	1.2.3 || >=2.0.0	false
+ltr	1.0.0-alpha	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-alpha	^1.2.3-alpha	false
+gtr	1.0.0-alpha	^1.2.3-alpha	false
+ltr	1.0.0-alpha	^1.2.3-alpha	true
+satisfies	1.0.0-alpha	~1.2	false
+gtr	1.0.0-alpha	~1.2	false
+ltr	1.0.0-alpha	~1.2	true
+satisfies	1.0.0-alpha	^1	false
+gtr	1.0.0-alpha	^1	false
+ltr	1.0.0-alpha	^1	true
+satisfies	1.0.0-alpha.1	1.2.3	false
+gtr	1.0.0-alpha.1	1.2.3	false
+ltr	1.0.0-alpha.1	1.2.3	true
+satisfies	1.0.0-alpha.1	=1.2.3	false
+gtr	1.0.0-alpha.1	=1.2.3	false
+ltr	1.0.0-alpha.1	=1.2.3	true
+satisfies	1.0.0-alpha.1	>1.2.3	false
+gtr	1.0.0-alpha.1	>1.2.3	false
+ltr	1.0.0-alpha.1	>1.2.3	true
+satisfies	1.0.0-alpha.1	>=1.2.3	false
+gtr	1.0.0-alpha.1	>=1.2.3	false
+ltr	1.0.0-alpha.1	>=1.2.3	true
+satisfies	1.0.0-alpha.1	<1.2.3	false
+gtr	1.0.0-alpha.1	<1.2.3	true
+ltr	1.0.0-alpha.1	<1.2.3	false
+satisfies	1.0.0-alpha.1	<=1.2.3	false
+gtr	1.0.0-alpha.1	<=1.2.3	true
+ltr	1.0.0-alpha.1	<=1.2.3	false
+satisfies	1.0.0-alpha.1	^1.2.3	false
+gtr	1.0.0-alpha.1	^1.2.3	false
+ltr	1.0.0-alpha.1	^1.2.3	true
+satisfies	1.0.0-alpha.1	~1.2.3	false
+gtr	1.0.0-alpha.1	~1.2.3	false
+ltr	1.0.0-alpha.1	~1.2.3	true
+satisfies	1.0.0-alpha.1	^0.2.3	false
+gtr	1.0.0-alpha.1	^0.2.3	true
+ltr	1.0.0-alpha.1	^0.2.3	false
+satisfies	1.0.0-alpha.1	^0.0.3	false
+gtr	1.0.0-alpha.1	^0.0.3	true
+ltr	1.0.0-alpha.1	^0.0.3	false
+satisfies	1.0.0-alpha.1	1.2.x	false
+gtr	1.0.0-alpha.1	1.2.x	false
+ltr	1.0.0-alpha.1	1.2.x	true
+satisfies	1.0.0-alpha.1	1.x	false
+gtr	1.0.0-alpha.1	1.x	false
+ltr	1.0.0-alpha.1	1.x	true
+satisfies	1.0.0-alpha.1	*	false
+gtr	1.0.0-alpha.1	*	false
+ltr	1.0.0-alpha.1	*	true
+satisfies	1.0.0-alpha.1	>=1.2.3 <2.0.0	false
+gtr	1.0.0-alpha.1	>=1.2.3 <2.0.0	false
+ltr	1.0.0-alpha.1	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-alpha.1	1.2.3 - 2.3.4	false
+gtr	1.0.0-alpha.1	1.2.3 - 2.3.4	false
+ltr	1.0.0-alpha.1	1.2.3 - 2.3.4	true
+satisfies	1.0.0-alpha.1	1.2.3 || >=2.0.0	false
+gtr	1.0.0-alpha.1	1.2.3 || >=2.0.0	false
+ltr	1.0.0-alpha.1	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-alpha.1	^1.2.3-alpha	false
+gtr	1.0.0-alpha.1	^1.2.3-alpha	false
+ltr	1.0.0-alpha.1	^1.2.3-alpha	true
+satisfies	1.0.0-alpha.1	~1.2	false
+gtr	1.0.0-alpha.1	~1.2	false
+ltr	1.0.0-alpha.1	~1.2	true
+satisfies	1.0.0-alpha.1	^1	false
+gtr	1.0.0-alpha.1	^1	false
+ltr	1.0.0-alpha.1	^1	true
+satisfies	1.0.0-alpha.beta	1.2.3	false
+gtr	1.0.0-alpha.beta	1.2.3	false
+ltr	1.0.0-alpha.beta	1.2.3	true
+satisfies	1.0.0-alpha.beta	=1.2.3	false
+gtr	1.0.0-alpha.beta	=1.2.3	false
+ltr	1.0.0-alpha.beta	=1.2.3	true
+satisfies	1.0.0-alpha.beta	>1.2.3	false
+gtr	1.0.0-alpha.beta	>1.2.3	false
+ltr	1.0.0-alpha.beta	>1.2.3	true
+satisfies	1.0.0-alpha.beta	>=1.2.3	false
+gtr	1.0.0-alpha.beta	>=1.2.3	false
+ltr	1.0.0-alpha.beta	>=1.2.3	true
+satisfies	1.0.0-alpha.beta	<1.2.3	false
+gtr	1.0.0-alpha.beta	<1.2.3	true
+ltr	1.0.0-alpha.beta	<1.2.3	false
+satisfies	1.0.0-alpha.beta	<=1.2.3	false
+gtr	1.0.0-alpha.beta	<=1.2.3	true
+ltr	1.0.0-alpha.beta	<=1.2.3	false
+satisfies	1.0.0-alpha.beta	^1.2.3	false
+gtr	1.0.0-alpha.beta	^1.2.3	false
+ltr	1.0.0-alpha.beta	^1.2.3	true
+satisfies	1.0.0-alpha.beta	~1.2.3	false
+gtr	1.0.0-alpha.beta	~1.2.3	false
+ltr	1.0.0-alpha.beta	~1.2.3	true
+satisfies	1.0.0-alpha.beta	^0.2.3	false
+gtr	1.0.0-alpha.beta	^0.2.3	true
+ltr	1.0.0-alpha.beta	^0.2.3	false
+satisfies	1.0.0-alpha.beta	^0.0.3	false
+gtr	1.0.0-alpha.beta	^0.0.3	true
+ltr	1.0.0-alpha.beta	^0.0.3	false
+satisfies	1.0.0-alpha.beta	1.2.x	false
+gtr	1.0.0-alpha.beta	1.2.x	false
+ltr	1.0.0-alpha.beta	1.2.x	true
+satisfies	1.0.0-alpha.beta	1.x	false
+gtr	1.0.0-alpha.beta	1.x	false
+ltr	1.0.0-alpha.beta	1.x	true
+satisfies	1.0.0-alpha.beta	*	false
+gtr	1.0.0-alpha.beta	*	false
+ltr	1.0.0-alpha.beta	*	true
+satisfies	1.0.0-alpha.beta	>=1.2.3 <2.0.0	false
+gtr	1.0.0-alpha.beta	>=1.2.3 <2.0.0	false
+ltr	1.0.0-alpha.beta	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-alpha.beta	1.2.3 - 2.3.4	false
+gtr	1.0.0-alpha.beta	1.2.3 - 2.3.4	false
+ltr	1.0.0-alpha.beta	1.2.3 - 2.3.4	true
+satisfies	1.0.0-alpha.beta	1.2.3 || >=2.0.0	false
+gtr	1.0.0-alpha.beta	1.2.3 || >=2.0.0	false
+ltr	1.0.0-alpha.beta	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-alpha.beta	^1.2.3-alpha	false
+gtr	1.0.0-alpha.beta	^1.2.3-alpha	false
+ltr	1.0.0-alpha.beta	^1.2.3-alpha	true
+satisfies	1.0.0-alpha.beta	~1.2	false
+gtr	1.0.0-alpha.beta	~1.2	false
+ltr	1.0.0-alpha.beta	~1.2	true
+satisfies	1.0.0-alpha.beta	^1	false
+gtr	1.0.0-alpha.beta	^1	false
+ltr	1.0.0-alpha.beta	^1	true
+satisfies	1.0.0-beta	1.2.3	false
+gtr	1.0.0-beta	1.2.3	false
+ltr	1.0.0-beta	1.2.3	true
+satisfies	1.0.0-beta	=1.2.3	false
+gtr	1.0.0-beta	=1.2.3	false
+ltr	1.0.0-beta	=1.2.3	true
+satisfies	1.0.0-beta	>1.2.3	false
+gtr	1.0.0-beta	>1.2.3	false
+ltr	1.0.0-beta	>1.2.3	true
+satisfies	1.0.0-beta	>=1.2.3	false
+gtr	1.0.0-beta	>=1.2.3	false
+ltr	1.0.0-beta	>=1.2.3	true
+satisfies	1.0.0-beta	<1.2.3	false
+gtr	1.0.0-beta	<1.2.3	true
+ltr	1.0.0-beta	<1.2.3	false
+satisfies	1.0.0-beta	<=1.2.3	false
+gtr	1.0.0-beta	<=1.2.3	true
+ltr	1.0.0-beta	<=1.2.3	false
+satisfies	1.0.0-beta	^1.2.3	false
+gtr	1.0.0-beta	^1.2.3	false
+ltr	1.0.0-beta	^1.2.3	true
+satisfies	1.0.0-beta	~1.2.3	false
+gtr	1.0.0-beta	~1.2.3	false
+ltr	1.0.0-beta	~1.2.3	true
+satisfies	1.0.0-beta	^0.2.3	false
+gtr	1.0.0-beta	^0.2.3	true
+ltr	1.0.0-beta	^0.2.3	false
+satisfies	1.0.0-beta	^0.0.3	false
+gtr	1.0.0-beta	^0.0.3	true
+ltr	1.0.0-beta	^0.0.3	false
+satisfies	1.0.0-beta	1.2.x	false
+gtr	1.0.0-beta	1.2.x	false
+ltr	1.0.0-beta	1.2.x	true
+satisfies	1.0.0-beta	1.x	false
+gtr	1.0.0-beta	1.x	false
+ltr	1.0.0-beta	1.x	true
+satisfies	1.0.0-beta	*	false
+gtr	1.0.0-beta	*	false
+ltr	1.0.0-beta	*	true
+satisfies	1.0.0-beta	>=1.2.3 <2.0.0	false
+gtr	1.0.0-beta	>=1.2.3 <2.0.0	false
+ltr	1.0.0-beta	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-beta	1.2.3 - 2.3.4	false
+gtr	1.0.0-beta	1.2.3 - 2.3.4	false
+ltr	1.0.0-beta	1.2.3 - 2.3.4	true
+satisfies	1.0.0-beta	1.2.3 || >=2.0.0	false
+gtr	1.0.0-beta	1.2.3 || >=2.0.0	false
+ltr	1.0.0-beta	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-beta	^1.2.3-alpha	false
+gtr	1.0.0-beta	^1.2.3-alpha	false
+ltr	1.0.0-beta	^1.2.3-alpha	true
+satisfies	1.0.0-beta	~1.2	false
+gtr	1.0.0-beta	~1.2	false
+ltr	1.0.0-beta	~1.2	true
+satisfies	1.0.0-beta	^1	false
+gtr	1.0.0-beta	^1	false
+ltr	1.0.0-beta	^1	true
+satisfies	1.0.0-beta.2	1.2.3	false
+gtr	1.0.0-beta.2	1.2.3	false
+ltr	1.0.0-beta.2	1.2.3	true
+satisfies	1.0.0-beta.2	=1.2.3	false
+gtr	1.0.0-beta.2	=1.2.3	false
+ltr	1.0.0-beta.2	=1.2.3	true
+satisfies	1.0.0-beta.2	>1.2.3	false
+gtr	1.0.0-beta.2	>1.2.3	false
+ltr	1.0.0-beta.2	>1.2.3	true
+satisfies	1.0.0-beta.2	>=1.2.3	false
+gtr	1.0.0-beta.2	>=1.2.3	false
+ltr	1.0.0-beta.2	>=1.2.3	true
+satisfies	1.0.0-beta.2	<1.2.3	false
+gtr	1.0.0-beta.2	<1.2.3	true
+ltr	1.0.0-beta.2	<1.2.3	false
+satisfies	1.0.0-beta.2	<=1.2.3	false
+gtr	1.0.0-beta.2	<=1.2.3	true
+ltr	1.0.0-beta.2	<=1.2.3	false
+satisfies	1.0.0-beta.2	^1.2.3	false
+gtr	1.0.0-beta.2	^1.2.3	false
+ltr	1.0.0-beta.2	^1.2.3	true
+satisfies	1.0.0-beta.2	~1.2.3	false
+gtr	1.0.0-beta.2	~1.2.3	false
+ltr	1.0.0-beta.2	~1.2.3	true
+satisfies	1.0.0-beta.2	^0.2.3	false
+gtr	1.0.0-beta.2	^0.2.3	true
+ltr	1.0.0-beta.2	^0.2.3	false
+satisfies	1.0.0-beta.2	^0.0.3	false
+gtr	1.0.0-beta.2	^0.0.3	true
+ltr	1.0.0-beta.2	^0.0.3	false
+satisfies	1.0.0-beta.2	1.2.x	false
+gtr	1.0.0-beta.2	1.2.x	false
+ltr	1.0.0-beta.2	1.2.x	true
+satisfies	1.0.0-beta.2	1.x	false
+gtr	1.0.0-beta.2	1.x	false
+ltr	1.0.0-beta.2	1.x	true
+satisfies	1.0.0-beta.2	*	false
+gtr	1.0.0-beta.2	*	false
+ltr	1.0.0-beta.2	*	true
+satisfies	1.0.0-beta.2	>=1.2.3 <2.0.0	false
+gtr	1.0.0-beta.2	>=1.2.3 <2.0.0	false
+ltr	1.0.0-beta.2	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-beta.2	1.2.3 - 2.3.4	false
+gtr	1.0.0-beta.2	1.2.3 - 2.3.4	false
+ltr	1.0.0-beta.2	1.2.3 - 2.3.4	true
+satisfies	1.0.0-beta.2	1.2.3 || >=2.0.0	false
+gtr	1.0.0-beta.2	1.2.3 || >=2.0.0	false
+ltr	1.0.0-beta.2	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-beta.2	^1.2.3-alpha	false
+gtr	1.0.0-beta.2	^1.2.3-alpha	false
+ltr	1.0.0-beta.2	^1.2.3-alpha	true
+satisfies	1.0.0-beta.2	~1.2	false
+gtr	1.0.0-beta.2	~1.2	false
+ltr	1.0.0-beta.2	~1.2	true
+satisfies	1.0.0-beta.2	^1	false
+gtr	1.0.0-beta.2	^1	false
+ltr	1.0.0-beta.2	^1	true
+satisfies	1.0.0-beta.11	1.2.3	false
+gtr	1.0.0-beta.11	1.2.3	false
+ltr	1.0.0-beta.11	1.2.3	true
+satisfies	1.0.0-beta.11	=1.2.3	false
+gtr	1.0.0-beta.11	=1.2.3	false
+ltr	1.0.0-beta.11	=1.2.3	true
+satisfies	1.0.0-beta.11	>1.2.3	false
+gtr	1.0.0-beta.11	>1.2.3	false
+ltr	1.0.0-beta.11	>1.2.3	true
+satisfies	1.0.0-beta.11	>=1.2.3	false
+gtr	1.0.0-beta.11	>=1.2.3	false
+ltr	1.0.0-beta.11	>=1.2.3	true
+satisfies	1.0.0-beta.11	<1.2.3	false
+gtr	1.0.0-beta.11	<1.2.3	true
+ltr	1.0.0-beta.11	<1.2.3	false
+satisfies	1.0.0-beta.11	<=1.2.3	false
+gtr	1.0.0-beta.11	<=1.2.3	true
+ltr	1.0.0-beta.11	<=1.2.3	false
+satisfies	1.0.0-beta.11	^1.2.3	false
+gtr	1.0.0-beta.11	^1.2.3	false
+ltr	1.0.0-beta.11	^1.2.3	true
+satisfies	1.0.0-beta.11	~1.2.3	false
+gtr	1.0.0-beta.11	~1.2.3	false
+ltr	1.0.0-beta.11	~1.2.3	true
+satisfies	1.0.0-beta.11	^0.2.3	false
+gtr	1.0.0-beta.11	^0.2.3	true
+ltr	1.0.0-beta.11	^0.2.3	false
+satisfies	1.0.0-beta.11	^0.0.3	false
+gtr	1.0.0-beta.11	^0.0.3	true
+ltr	1.0.0-beta.11	^0.0.3	false
+satisfies	1.0.0-beta.11	1.2.x	false
+gtr	1.0.0-beta.11	1.2.x	false
+ltr	1.0.0-beta.11	1.2.x	true
+satisfies	1.0.0-beta.11	1.x	false
+gtr	1.0.0-beta.11	1.x	false
+ltr	1.0.0-beta.11	1.x	true
+satisfies	1.0.0-beta.11	*	false
+gtr	1.0.0-beta.11	*	false
+ltr	1.0.0-beta.11	*	true
+satisfies	1.0.0-beta.11	>=1.2.3 <2.0.0	false
+gtr	1.0.0-beta.11	>=1.2.3 <2.0.0	false
+ltr	1.0.0-beta.11	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-beta.11	1.2.3 - 2.3.4	false
+gtr	1.0.0-beta.11	1.2.3 - 2.3.4	false
+ltr	1.0.0-beta.11	1.2.3 - 2.3.4	true
+satisfies	1.0.0-beta.11	1.2.3 || >=2.0.0	false
+gtr	1.0.0-beta.11	1.2.3 || >=2.0.0	false
+ltr	1.0.0-beta.11	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-beta.11	^1.2.3-alpha	false
+gtr	1.0.0-beta.11	^1.2.3-alpha	false
+ltr	1.0.0-beta.11	^1.2.3-alpha	true
+satisfies	1.0.0-beta.11	~1.2	false
+gtr	1.0.0-beta.11	~1.2	false
+ltr	1.0.0-beta.11	~1.2	true
+satisfies	1.0.0-beta.11	^1	false
+gtr	1.0.0-beta.11	^1	false
+ltr	1.0.0-beta.11	^1	true
+satisfies	1.0.0-rc.1	1.2.3	false
+gtr	1.0.0-rc.1	1.2.3	false
+ltr	1.0.0-rc.1	1.2.3	true
+satisfies	1.0.0-rc.1	=1.2.3	false
+gtr	1.0.0-rc.1	=1.2.3	false
+ltr	1.0.0-rc.1	=1.2.3	true
+satisfies	1.0.0-rc.1	>1.2.3	false
+gtr	1.0.0-rc.1	>1.2.3	false
+ltr	1.0.0-rc.1	>1.2.3	true
+satisfies	1.0.0-rc.1	>=1.2.3	false
+gtr	1.0.0-rc.1	>=1.2.3	false
+ltr	1.0.0-rc.1	>=1.2.3	true
+satisfies	1.0.0-rc.1	<1.2.3	false
+gtr	1.0.0-rc.1	<1.2.3	true
+ltr	1.0.0-rc.1	<1.2.3	false
+satisfies	1.0.0-rc.1	<=1.2.3	false
+gtr	1.0.0-rc.1	<=1.2.3	true
+ltr	1.0.0-rc.1	<=1.2.3	false
+satisfies	1.0.0-rc.1	^1.2.3	false
+gtr	1.0.0-rc.1	^1.2.3	false
+ltr	1.0.0-rc.1	^1.2.3	true
+satisfies	1.0.0-rc.1	~1.2.3	false
+gtr	1.0.0-rc.1	~1.2.3	false
+ltr	1.0.0-rc.1	~1.2.3	true
+satisfies	1.0.0-rc.1	^0.2.3	false
+gtr	1.0.0-rc.1	^0.2.3	true
+ltr	1.0.0-rc.1	^0.2.3	false
+satisfies	1.0.0-rc.1	^0.0.3	false
+gtr	1.0.0-rc.1	^0.0.3	true
+ltr	1.0.0-rc.1	^0.0.3	false
+satisfies	1.0.0-rc.1	1.2.x	false
+gtr	1.0.0-rc.1	1.2.x	false
+ltr	1.0.0-rc.1	1.2.x	true
+satisfies	1.0.0-rc.1	1.x	false
+gtr	1.0.0-rc.1	1.x	false
+ltr	1.0.0-rc.1	1.x	true
+satisfies	1.0.0-rc.1	*	false
+gtr	1.0.0-rc.1	*	false
+ltr	1.0.0-rc.1	*	true
+satisfies	1.0.0-rc.1	>=1.2.3 <2.0.0	false
+gtr	1.0.0-rc.1	>=1.2.3 <2.0.0	false
+ltr	1.0.0-rc.1	>=1.2.3 <2.0.0	true
+satisfies	1.0.0-rc.1	1.2.3 - 2.3.4	false
+gtr	1.0.0-rc.1	1.2.3 - 2.3.4	false
+ltr	1.0.0-rc.1	1.2.3 - 2.3.4	true
+satisfies	1.0.0-rc.1	1.2.3 || >=2.0.0	false
+gtr	1.0.0-rc.1	1.2.3 || >=2.0.0	false
+ltr	1.0.0-rc.1	1.2.3 || >=2.0.0	true
+satisfies	1.0.0-rc.1	^1.2.3-alpha	false
+gtr	1.0.0-rc.1	^1.2.3-alpha	false
+ltr	1.0.0-rc.1	^1.2.3-alpha	true
+satisfies	1.0.0-rc.1	~1.2	false
+gtr	1.0.0-rc.1	~1.2	false
+ltr	1.0.0-rc.1	~1.2	true
+satisfies	1.0.0-rc.1	^1	false
+gtr	1.0.0-rc.1	^1	false
+ltr	1.0.0-rc.1	^1	true
+satisfies	1.2.3-0	1.2.3	false
+gtr	1.2.3-0	1.2.3	false
+ltr	1.2.3-0	1.2.3	true
+satisfies	1.2.3-0	=1.2.3	false
+gtr	1.2.3-0	=1.2.3	false
+ltr	1.2.3-0	=1.2.3	true
+satisfies	1.2.3-0	>1.2.3	false
+gtr	1.2.3-0	>1.2.3	false
+ltr	1.2.3-0	>1.2.3	true
+satisfies	1.2.3-0	>=1.2.3	false
+gtr	1.2.3-0	>=1.2.3	false
+ltr	1.2.3-0	>=1.2.3	true
+satisfies	1.2.3-0	<1.2.3	false
+gtr	1.2.3-0	<1.2.3	true
+ltr	1.2.3-0	<1.2.3	false
+satisfies	1.2.3-0	<=1.2.3	false
+gtr	1.2.3-0	<=1.2.3	true
+ltr	1.2.3-0	<=1.2.3	false
+satisfies	1.2.3-0	^1.2.3	false
+gtr	1.2.3-0	^1.2.3	false
+ltr	1.2.3-0	^1.2.3	true
+satisfies	1.2.3-0	~1.2.3	false
+gtr	1.2.3-0	~1.2.3	false
+ltr	1.2.3-0	~1.2.3	true
+satisfies	1.2.3-0	^0.2.3	false
+gtr	1.2.3-0	^0.2.3	true
+ltr	1.2.3-0	^0.2.3	false
+satisfies	1.2.3-0	^0.0.3	false
+gtr	1.2.3-0	^0.0.3	true
+ltr	1.2.3-0	^0.0.3	false
+satisfies	1.2.3-0	1.2.x	false
+gtr	1.2.3-0	1.2.x	true
+ltr	1.2.3-0	1.2.x	true
+satisfies	1.2.3-0	1.x	false
+gtr	1.2.3-0	1.x	true
+ltr	1.2.3-0	1.x	true
+satisfies	1.2.3-0	*	false
+gtr	1.2.3-0	*	false
+ltr	1.2.3-0	*	true
+satisfies	1.2.3-0	>=1.2.3 <2.0.0	false
+gtr	1.2.3-0	>=1.2.3 <2.0.0	false
+ltr	1.2.3-0	>=1.2.3 <2.0.0	true
+satisfies	1.2.3-0	1.2.3 - 2.3.4	false
+gtr	1.2.3-0	1.2.3 - 2.3.4	false
+ltr	1.2.3-0	1.2.3 - 2.3.4	true
+satisfies	1.2.3-0	1.2.3 || >=2.0.0	false
+gtr	1.2.3-0	1.2.3 || >=2.0.0	false
+ltr	1.2.3-0	1.2.3 || >=2.0.0	true
+satisfies	1.2.3-0	^1.2.3-alpha	false
+gtr	1.2.3-0	^1.2.3-alpha	false
+ltr	1.2.3-0	^1.2.3-alpha	true
+satisfies	1.2.3-0	~1.2	false
+gtr	1.2.3-0	~1.2	true
+ltr	1.2.3-0	~1.2	true
+satisfies	1.2.3-0	^1	false
+gtr	1.2.3-0	^1	true
+ltr	1.2.3-0	^1	true
+satisfies	2.0.0-0	1.2.3	false
+gtr	2.0.0-0	1.2.3	true
+ltr	2.0.0-0	1.2.3	false
+satisfies	2.0.0-0	=1.2.3	false
+gtr	2.0.0-0	=1.2.3	true
+ltr	2.0.0-0	=1.2.3	false
+satisfies	2.0.0-0	>1.2.3	false
+gtr	2.0.0-0	>1.2.3	false
+ltr	2.0.0-0	>1.2.3	true
+satisfies	2.0.0-0	>=1.2.3	false
+gtr	2.0.0-0	>=1.2.3	false
+ltr	2.0.0-0	>=1.2.3	true
+satisfies	2.0.0-0	<1.2.3	false
+gtr	2.0.0-0	<1.2.3	true
+ltr	2.0.0-0	<1.2.3	false
+satisfies	2.0.0-0	<=1.2.3	false
+gtr	2.0.0-0	<=1.2.3	true
+ltr	2.0.0-0	<=1.2.3	false
+satisfies	2.0.0-0	^1.2.3	false
+gtr	2.0.0-0	^1.2.3	true
+ltr	2.0.0-0	^1.2.3	false
+satisfies	2.0.0-0	~1.2.3	false
+gtr	2.0.0-0	~1.2.3	true
+ltr	2.0.0-0	~1.2.3	false
+satisfies	2.0.0-0	^0.2.3	false
+gtr	2.0.0-0	^0.2.3	true
+ltr	2.0.0-0	^0.2.3	false
+satisfies	2.0.0-0	^0.0.3	false
+gtr	2.0.0-0	^0.0.3	true
+ltr	2.0.0-0	^0.0.3	false
+satisfies	2.0.0-0	1.2.x	false
+gtr	2.0.0-0	1.2.x	true
+ltr	2.0.0-0	1.2.x	false
+satisfies	2.0.0-0	1.x	false
+gtr	2.0.0-0	1.x	true
+ltr	2.0.0-0	1.x	false
+satisfies	2.0.0-0	*	false
+gtr	2.0.0-0	*	false
+ltr	2.0.0-0	*	true
+satisfies	2.0.0-0	>=1.2.3 <2.0.0	false
+gtr	2.0.0-0	>=1.2.3 <2.0.0	true
+ltr	2.0.0-0	>=1.2.3 <2.0.0	true
+satisfies	2.0.0-0	1.2.3 - 2.3.4	false
+gtr	2.0.0-0	1.2.3 - 2.3.4	true
+ltr	2.0.0-0	1.2.3 - 2.3.4	true
+satisfies	2.0.0-0	1.2.3 || >=2.0.0	false
+gtr	2.0.0-0	1.2.3 || >=2.0.0	false
+ltr	2.0.0-0	1.2.3 || >=2.0.0	false
+satisfies	2.0.0-0	^1.2.3-alpha	false
+gtr	2.0.0-0	^1.2.3-alpha	true
+ltr	2.0.0-0	^1.2.3-alpha	false
+satisfies	2.0.0-0	~1.2	false
+gtr	2.0.0-0	~1.2	true
+ltr	2.0.0-0	~1.2	false
+satisfies	2.0.0-0	^1	false
+gtr	2.0.0-0	^1	true
+ltr	2.0.0-0	^1	false
+satisfies	1.2.3+build	1.2.3	true
+gtr	1.2.3+build	1.2.3	false
+ltr	1.2.3+build	1.2.3	false
+satisfies	1.2.3+build	=1.2.3	true
+gtr	1.2.3+build	=1.2.3	false
+ltr	1.2.3+build	=1.2.3	false
+satisfies	1.2.3+build	>1.2.3	false
+gtr	1.2.3+build	>1.2.3	false
+ltr	1.2.3+build	>1.2.3	true
+satisfies	1.2.3+build	>=1.2.3	true
+gtr	1.2.3+build	>=1.2.3	false
+ltr	1.2.3+build	>=1.2.3	false
+satisfies	1.2.3+build	<1.2.3	false
+gtr	1.2.3+build	<1.2.3	true
+ltr	1.2.3+build	<1.2.3	false
+satisfies	1.2.3+build	<=1.2.3	true
+gtr	1.2.3+build	<=1.2.3	false
+ltr	1.2.3+build	<=1.2.3	false
+satisfies	1.2.3+build	^1.2.3	true
+gtr	1.2.3+build	^1.2.3	false
+ltr	1.2.3+build	^1.2.3	false
+satisfies	1.2.3+build	~1.2.3	true
+gtr	1.2.3+build	~1.2.3	false
+ltr	1.2.3+build	~1.2.3	false
+satisfies	1.2.3+build	^0.2.3	false
+gtr	1.2.3+build	^0.2.3	true
+ltr	1.2.3+build	^0.2.3	false
+satisfies	1.2.3+build	^0.0.3	false
+gtr	1.2.3+build	^0.0.3	true
+ltr	1.2.3+build	^0.0.3	false
+satisfies	1.2.3+build	1.2.x	true
+gtr	1.2.3+build	1.2.x	false
+ltr	1.2.3+build	1.2.x	false
+satisfies	1.2.3+build	1.x	true
+gtr	1.2.3+build	1.x	false
+ltr	1.2.3+build	1.x	false
+satisfies	1.2.3+build	*	true
+gtr	1.2.3+build	*	false
+ltr	1.2.3+build	*	false
+satisfies	1.2.3+build	>=1.2.3 <2.0.0	true
+gtr	1.2.3+build	>=1.2.3 <2.0.0	false
+ltr	1.2.3+build	>=1.2.3 <2.0.0	false
+satisfies	1.2.3+build	1.2.3 - 2.3.4	true
+gtr	1.2.3+build	1.2.3 - 2.3.4	false
+ltr	1.2.3+build	1.2.3 - 2.3.4	false
+satisfies	1.2.3+build	1.2.3 || >=2.0.0	true
+gtr	1.2.3+build	1.2.3 || >=2.0.0	false
+ltr	1.2.3+build	1.2.3 || >=2.0.0	false
+satisfies	1.2.3+build	^1.2.3-alpha	true
+gtr	1.2.3+build	^1.2.3-alpha	false
+ltr	1.2.3+build	^1.2.3-alpha	false
+satisfies	1.2.3+build	~1.2	true
+gtr	1.2.3+build	~1.2	false
+ltr	1.2.3+build	~1.2	false
+satisfies	1.2.3+build	^1	true
+gtr	1.2.3+build	^1	false
+ltr	1.2.3+build	^1	false
+satisfies	1.0.0+007	1.2.3	false
+gtr	1.0.0+007	1.2.3	false
+ltr	1.0.0+007	1.2.3	true
+satisfies	1.0.0+007	=1.2.3	false
+gtr	1.0.0+007	=1.2.3	false
+ltr	1.0.0+007	=1.2.3	true
+satisfies	1.0.0+007	>1.2.3	false
+gtr	1.0.0+007	>1.2.3	false
+ltr	1.0.0+007	>1.2.3	true
+satisfies	1.0.0+007	>=1.2.3	false
+gtr	1.0.0+007	>=1.2.3	false
+ltr	1.0.0+007	>=1.2.3	true
+satisfies	1.0.0+007	<1.2.3	true
+gtr	1.0.0+007	<1.2.3	false
+ltr	1.0.0+007	<1.2.3	false
+satisfies	1.0.0+007	<=1.2.3	true
+gtr	1.0.0+007	<=1.2.3	false
+ltr	1.0.0+007	<=1.2.3	false
+satisfies	1.0.0+007	^1.2.3	false
+gtr	1.0.0+007	^1.2.3	false
+ltr	1.0.0+007	^1.2.3	true
+satisfies	1.0.0+007	~1.2.3	false
+gtr	1.0.0+007	~1.2.3	false
+ltr	1.0.0+007	~1.2.3	true
+satisfies	1.0.0+007	^0.2.3	false
+gtr	1.0.0+007	^0.2.3	true
+ltr	1.0.0+007	^0.2.3	false
+satisfies	1.0.0+007	^0.0.3	false
+gtr	1.0.0+007	^0.0.3	true
+ltr	1.0.0+007	^0.0.3	false
+satisfies	1.0.0+007	1.2.x	false
+gtr	1.0.0+007	1.2.x	false
+ltr	1.0.0+007	1.2.x	true
+satisfies	1.0.0+007	1.x	true
+gtr	1.0.0+007	1.x	false
+ltr	1.0.0+007	1.x	false
+satisfies	1.0.0+007	*	true
+gtr	1.0.0+007	*	false
+ltr	1.0.0+007	*	false
+satisfies	1.0.0+007	>=1.2.3 <2.0.0	false
+gtr	1.0.0+007	>=1.2.3 <2.0.0	false
+ltr	1.0.0+007	>=1.2.3 <2.0.0	true
+satisfies	1.0.0+007	1.2.3 - 2.3.4	false
+gtr	1.0.0+007	1.2.3 - 2.3.4	false
+ltr	1.0.0+007	1.2.3 - 2.3.4	true
+satisfies	1.0.0+007	1.2.3 || >=2.0.0	false
+gtr	1.0.0+007	1.2.3 || >=2.0.0	false
+ltr	1.0.0+007	1.2.3 || >=2.0.0	true
+satisfies	1.0.0+007	^1.2.3-alpha	false
+gtr	1.0.0+007	^1.2.3-alpha	false
+ltr	1.0.0+007	^1.2.3-alpha	true
+satisfies	1.0.0+007	~1.2	false
+gtr	1.0.0+007	~1.2	false
+ltr	1.0.0+007	~1.2	true
+satisfies	1.0.0+007	^1	true
+gtr	1.0.0+007	^1	false
+ltr	1.0.0+007	^1	false
+satisfies	10.0.0	1.2.3	false
+gtr	10.0.0	1.2.3	true
+ltr	10.0.0	1.2.3	false
+satisfies	10.0.0	=1.2.3	false
+gtr	10.0.0	=1.2.3	true
+ltr	10.0.0	=1.2.3	false
+satisfies	10.0.0	>1.2.3	true
+gtr	10.0.0	>1.2.3	false
+ltr	10.0.0	>1.2.3	false
+satisfies	10.0.0	>=1.2.3	true
+gtr	10.0.0	>=1.2.3	false
+ltr	10.0.0	>=1.2.3	false
+satisfies	10.0.0	<1.2.3	false
+gtr	10.0.0	<1.2.3	true
+ltr	10.0.0	<1.2.3	false
+satisfies	10.0.0	<=1.2.3	false
+gtr	10.0.0	<=1.2.3	true
+ltr	10.0.0	<=1.2.3	false
+satisfies	10.0.0	^1.2.3	false
+gtr	10.0.0	^1.2.3	true
+ltr	10.0.0	^1.2.3	false
+satisfies	10.0.0	~1.2.3	false
+gtr	10.0.0	~1.2.3	true
+ltr	10.0.0	~1.2.3	false
+satisfies	10.0.0	^0.2.3	false
+gtr	10.0.0	^0.2.3	true
+ltr	10.0.0	^0.2.3	false
+satisfies	10.0.0	^0.0.3	false
+gtr	10.0.0	^0.0.3	true
+ltr	10.0.0	^0.0.3	false
+satisfies	10.0.0	1.2.x	false
+gtr	10.0.0	1.2.x	true
+ltr	10.0.0	1.2.x	false
+satisfies	10.0.0	1.x	false
+gtr	10.0.0	1.x	true
+ltr	10.0.0	1.x	false
+satisfies	10.0.0	*	true
+gtr	10.0.0	*	false
+ltr	10.0.0	*	false
+satisfies	10.0.0	>=1.2.3 <2.0.0	false
+gtr	10.0.0	>=1.2.3 <2.0.0	true
+ltr	10.0.0	>=1.2.3 <2.0.0	false
+satisfies	10.0.0	1.2.3 - 2.3.4	false
+gtr	10.0.0	1.2.3 - 2.3.4	true
+ltr	10.0.0	1.2.3 - 2.3.4	false
+satisfies	10.0.0	1.2.3 || >=2.0.0	true
+gtr	10.0.0	1.2.3 || >=2.0.0	false
+ltr	10.0.0	1.2.3 || >=2.0.0	false
+satisfies	10.0.0	^1.2.3-alpha	false
+gtr	10.0.0	^1.2.3-alpha	true
+ltr	10.0.0	^1.2.3-alpha	false
+satisfies	10.0.0	~1.2	false
+gtr	10.0.0	~1.2	true
+ltr	10.0.0	~1.2	false
+satisfies	10.0.0	^1	false
+gtr	10.0.0	^1	true
+ltr	10.0.0	^1	false
+intersects	1.2.3	1.2.3	true
+intersects	1.2.3	=1.2.3	true
+intersects	1.2.3	>1.2.3	false
+intersects	1.2.3	>=1.2.3	true
+intersects	1.2.3	<1.2.3	false
+intersects	1.2.3	<=1.2.3	true
+intersects	1.2.3	^1.2.3	true
+intersects	1.2.3	~1.2.3	true
+intersects	1.2.3	^0.2.3	false
+intersects	1.2.3	^0.0.3	false
+intersects	1.2.3	1.2.x	true
+intersects	1.2.3	1.x	true
+intersects	1.2.3	*	true
+intersects	1.2.3	>=1.2.3 <2.0.0	true
+intersects	1.2.3	1.2.3 - 2.3.4	true
+intersects	1.2.3	1.2.3 || >=2.0.0	true
+intersects	1.2.3	^1.2.3-alpha	true
+intersects	1.2.3	~1.2	true
+intersects	1.2.3	^1	true
+intersects	=1.2.3	1.2.3	true
+intersects	=1.2.3	=1.2.3	true
+intersects	=1.2.3	>1.2.3	false
+intersects	=1.2.3	>=1.2.3	true
+intersects	=1.2.3	<1.2.3	false
+intersects	=1.2.3	<=1.2.3	true
+intersects	=1.2.3	^1.2.3	true
+intersects	=1.2.3	~1.2.3	true
+intersects	=1.2.3	^0.2.3	false
+intersects	=1.2.3	^0.0.3	false
+intersects	=1.2.3	1.2.x	true
+intersects	=1.2.3	1.x	true
+intersects	=1.2.3	*	true
+intersects	=1.2.3	>=1.2.3 <2.0.0	true
+intersects	=1.2.3	1.2.3 - 2.3.4	true
+intersects	=1.2.3	1.2.3 || >=2.0.0	true
+intersects	=1.2.3	^1.2.3-alpha	true
+intersects	=1.2.3	~1.2	true
+intersects	=1.2.3	^1	true
+intersects	>1.2.3	1.2.3	false
+intersects	>1.2.3	=1.2.3	false
+intersects	>1.2.3	>1.2.3	true
+intersects	>1.2.3	>=1.2.3	true
+intersects	>1.2.3	<1.2.3	false
+intersects	>1.2.3	<=1.2.3	false
+intersects	>1.2.3	^1.2.3	true
+intersects	>1.2.3	~1.2.3	true
+intersects	>1.2.3	^0.2.3	false
+intersects	>1.2.3	^0.0.3	false
+intersects	>1.2.3	1.2.x	true
+intersects	>1.2.3	1.x	true
+intersects	>1.2.3	*	true
+intersects	>1.2.3	>=1.2.3 <2.0.0	true
+intersects	>1.2.3	1.2.3 - 2.3.4	true
+intersects	>1.2.3	1.2.3 || >=2.0.0	true
+intersects	>1.2.3	^1.2.3-alpha	true
+intersects	>1.2.3	~1.2	true
+intersects	>1.2.3	^1	true
+intersects	>=1.2.3	1.2.3	true
+intersects	>=1.2.3	=1.2.3	true
+intersects	>=1.2.3	>1.2.3	true
+intersects	>=1.2.3	>=1.2.3	true
+intersects	>=1.2.3	<1.2.3	false
+intersects	>=1.2.3	<=1.2.3	true
+intersects	>=1.2.3	^1.2.3	true
+intersects	>=1.2.3	~1.2.3	true
+intersects	>=1.2.3	^0.2.3	false
+intersects	>=1.2.3	^0.0.3	false
+intersects	>=1.2.3	1.2.x	true
+intersects	>=1.2.3	1.x	true
+intersects	>=1.2.3	*	true
+intersects	>=1.2.3	>=1.2.3 <2.0.0	true
+intersects	>=1.2.3	1.2.3 - 2.3.4	true
+intersects	>=1.2.3	1.2.3 || >=2.0.0	true
+intersects	>=1.2.3	^1.2.3-alpha	true
+intersects	>=1.2.3	~1.2	true
+intersects	>=1.2.3	^1	true
+intersects	<1.2.3	1.2.3	false
+intersects	<1.2.3	=1.2.3	false
+intersects	<1.2.3	>1.2.3	false
+intersects	<1.2.3	>=1.2.3	false
+intersects	<1.2.3	<1.2.3	true
+intersects	<1.2.3	<=1.2.3	true
+intersects	<1.2.3	^1.2.3	false
+intersects	<1.2.3	~1.2.3	false
+intersects	<1.2.3	^0.2.3	true
+intersects	<1.2.3	^0.0.3	true
+intersects	<1.2.3	1.2.x	true
+intersects	<1.2.3	1.x	true
+intersects	<1.2.3	*	true
+intersects	<1.2.3	>=1.2.3 <2.0.0	false
+intersects	<1.2.3	1.2.3 - 2.3.4	false
+intersects	<1.2.3	1.2.3 || >=2.0.0	false
+intersects	<1.2.3	^1.2.3-alpha	true
+intersects	<1.2.3	~1.2	true
+intersects	<1.2.3	^1	true
+intersects	<=1.2.3	1.2.3	true
+intersects	<=1.2.3	=1.2.3	true
+intersects	<=1.2.3	>1.2.3	false
+intersects	<=1.2.3	>=1.2.3	true
+intersects	<=1.2.3	<1.2.3	true
+intersects	<=1.2.3	<=1.2.3	true
+intersects	<=1.2.3	^1.2.3	true
+intersects	<=1.2.3	~1.2.3	true
+intersects	<=1.2.3	^0.2.3	true
+intersects	<=1.2.3	^0.0.3	true
+intersects	<=1.2.3	1.2.x	true
+intersects	<=1.2.3	1.x	true
+intersects	<=1.2.3	*	true
+intersects	<=1.2.3	>=1.2.3 <2.0.0	true
+intersects	<=1.2.3	1.2.3 - 2.3.4	true
+intersects	<=1.2.3	1.2.3 || >=2.0.0	true
+intersects	<=1.2.3	^1.2.3-alpha	true
+intersects	<=1.2.3	~1.2	true
+intersects	<=1.2.3	^1	true
+intersects	^1.2.3	1.2.3	true
+intersects	^1.2.3	=1.2.3	true
+intersects	^1.2.3	>1.2.3	true
+intersects	^1.2.3	>=1.2.3	true
+intersects	^1.2.3	<1.2.3	false
+intersects	^1.2.3	<=1.2.3	true
+intersects	^1.2.3	^1.2.3	true
+intersects	^1.2.3	~1.2.3	true
+intersects	^1.2.3	^0.2.3	false
+intersects	^1.2.3	^0.0.3	false
+intersects	^1.2.3	1.2.x	true
+intersects	^1.2.3	1.x	true
+intersects	^1.2.3	*	true
+intersects	^1.2.3	>=1.2.3 <2.0.0	true
+intersects	^1.2.3	1.2.3 - 2.3.4	true
+intersects	^1.2.3	1.2.3 || >=2.0.0	true
+intersects	^1.2.3	^1.2.3-alpha	true
+intersects	^1.2.3	~1.2	true
+intersects	^1.2.3	^1	true
+intersects	~1.2.3	1.2.3	true
+intersects	~1.2.3	=1.2.3	true
+intersects	~1.2.3	>1.2.3	true
+intersects	~1.2.3	>=1.2.3	true
+intersects	~1.2.3	<1.2.3	false
+intersects	~1.2.3	<=1.2.3	true
+intersects	~1.2.3	^1.2.3	true
+intersects	~1.2.3	~1.2.3	true
+intersects	~1.2.3	^0.2.3	false
+intersects	~1.2.3	^0.0.3	false
+intersects	~1.2.3	1.2.x	true
+intersects	~1.2.3	1.x	true
+intersects	~1.2.3	*	true
+intersects	~1.2.3	>=1.2.3 <2.0.0	true
+intersects	~1.2.3	1.2.3 - 2.3.4	true
+intersects	~1.2.3	1.2.3 || >=2.0.0	true
+intersects	~1.2.3	^1.2.3-alpha	true
+intersects	~1.2.3	~1.2	true
+intersects	~1.2.3	^1	true
+intersects	^0.2.3	1.2.3	false
+intersects	^0.2.3	=1.2.3	false
+intersects	^0.2.3	>1.2.3	false
+intersects	^0.2.3	>=1.2.3	false
+intersects	^0.2.3	<1.2.3	true
+intersects	^0.2.3	<=1.2.3	true
+intersects	^0.2.3	^1.2.3	false
+intersects	^0.2.3	~1.2.3	false
+intersects	^0.2.3	^0.2.3	true
+intersects	^0.2.3	^0.0.3	false
+intersects	^0.2.3	1.2.x	false
+intersects	^0.2.3	1.x	false
+intersects	^0.2.3	*	true
+intersects	^0.2.3	>=1.2.3 <2.0.0	false
+intersects	^0.2.3	1.2.3 - 2.3.4	false
+intersects	^0.2.3	1.2.3 || >=2.0.0	false
+intersects	^0.2.3	^1.2.3-alpha	false
+intersects	^0.2.3	~1.2	false
+intersects	^0.2.3	^1	false
+intersects	^0.0.3	1.2.3	false
+intersects	^0.0.3	=1.2.3	false
+intersects	^0.0.3	>1.2.3	false
+intersects	^0.0.3	>=1.2.3	false
+intersects	^0.0.3	<1.2.3	true
+intersects	^0.0.3	<=1.2.3	true
+intersects	^0.0.3	^1.2.3	false
+intersects	^0.0.3	~1.2.3	false
+intersects	^0.0.3	^0.2.3	false
+intersects	^0.0.3	^0.0.3	true
+intersects	^0.0.3	1.2.x	false
+intersects	^0.0.3	1.x	false
+intersects	^0.0.3	*	true
+intersects	^0.0.3	>=1.2.3 <2.0.0	false
+intersects	^0.0.3	1.2.3 - 2.3.4	false
+intersects	^0.0.3	1.2.3 || >=2.0.0	false
+intersects	^0.0.3	^1.2.3-alpha	false
+intersects	^0.0.3	~1.2	false
+intersects	^0.0.3	^1	false
+intersects	1.2.x	1.2.3	true
+intersects	1.2.x	=1.2.3	true
+intersects	1.2.x	>1.2.3	true
+intersects	1.2.x	>=1.2.3	true
+intersects	1.2.x	<1.2.3	true
+intersects	1.2.x	<=1.2.3	true
+intersects	1.2.x	^1.2.3	true
+intersects	1.2.x	~1.2.3	true
+intersects	1.2.x	^0.2.3	false
+intersects	1.2.x	^0.0.3	false
+intersects	1.2.x	1.2.x	true
+intersects	1.2.x	1.x	true
+intersects	1.2.x	*	true
+intersects	1.2.x	>=1.2.3 <2.0.0	true
+intersects	1.2.x	1.2.3 - 2.3.4	true
+intersects	1.2.x	1.2.3 || >=2.0.0	true
+intersects	1.2.x	^1.2.3-alpha	true
+intersects	1.2.x	~1.2	true
+intersects	1.2.x	^1	true
+intersects	1.x	1.2.3	true
+intersects	1.x	=1.2.3	true
+intersects	1.x	>1.2.3	true
+intersects	1.x	>=1.2.3	true
+intersects	1.x	<1.2.3	true
+intersects	1.x	<=1.2.3	true
+intersects	1.x	^1.2.3	true
+intersects	1.x	~1.2.3	true
+intersects	1.x	^0.2.3	false
+intersects	1.x	^0.0.3	false
+intersects	1.x	1.2.x	true
+intersects	1.x	1.x	true
+intersects	1.x	*	true
+intersects	1.x	>=1.2.3 <2.0.0	true
+intersects	1.x	1.2.3 - 2.3.4	true
+intersects	1.x	1.2.3 || >=2.0.0	true
+intersects	1.x	^1.2.3-alpha	true
+intersects	1.x	~1.2	true
+intersects	1.x	^1	true
+intersects	*	1.2.3	true
+intersects	*	=1.2.3	true
+intersects	*	>1.2.3	true
+intersects	*	>=1.2.3	true
+intersects	*	<1.2.3	true
+intersects	*	<=1.2.3	true
+intersects	*	^1.2.3	true
+intersects	*	~1.2.3	true
+intersects	*	^0.2.3	true
+intersects	*	^0.0.3	true
+intersects	*	1.2.x	true
+intersects	*	1.x	true
+intersects	*	*	true
+intersects	*	>=1.2.3 <2.0.0	true
+intersects	*	1.2.3 - 2.3.4	true
+intersects	*	1.2.3 || >=2.0.0	true
+intersects	*	^1.2.3-alpha	true
+intersects	*	~1.2	true
+intersects	*	^1	true
+intersects	>=1.2.3 <2.0.0	1.2.3	true
+intersects	>=1.2.3 <2.0.0	=1.2.3	true
+intersects	>=1.2.3 <2.0.0	>1.2.3	true
+intersects	>=1.2.3 <2.0.0	>=1.2.3	true
+intersects	>=1.2.3 <2.0.0	<1.2.3	false
+intersects	>=1.2.3 <2.0.0	<=1.2.3	true
+intersects	>=1.2.3 <2.0.0	^1.2.3	true
+intersects	>=1.2.3 <2.0.0	~1.2.3	true
+intersects	>=1.2.3 <2.0.0	^0.2.3	false
+intersects	>=1.2.3 <2.0.0	^0.0.3	false
+intersects	>=1.2.3 <2.0.0	1.2.x	true
+intersects	>=1.2.3 <2.0.0	1.x	true
+intersects	>=1.2.3 <2.0.0	*	true
+intersects	>=1.2.3 <2.0.0	>=1.2.3 <2.0.0	true
+intersects	>=1.2.3 <2.0.0	1.2.3 - 2.3.4	true
+intersects	>=1.2.3 <2.0.0	1.2.3 || >=2.0.0	true
+intersects	>=1.2.3 <2.0.0	^1.2.3-alpha	true
+intersects	>=1.2.3 <2.0.0	~1.2	true
+intersects	>=1.2.3 <2.0.0	^1	true
+intersects	1.2.3 - 2.3.4	1.2.3	true
+intersects	1.2.3 - 2.3.4	=1.2.3	true
+intersects	1.2.3 - 2.3.4	>1.2.3	true
+intersects	1.2.3 - 2.3.4	>=1.2.3	true
+intersects	1.2.3 - 2.3.4	<1.2.3	false
+intersects	1.2.3 - 2.3.4	<=1.2.3	true
+intersects	1.2.3 - 2.3.4	^1.2.3	true
+intersects	1.2.3 - 2.3.4	~1.2.3	true
+intersects	1.2.3 - 2.3.4	^0.2.3	false
+intersects	1.2.3 - 2.3.4	^0.0.3	false
+intersects	1.2.3 - 2.3.4	1.2.x	true
+intersects	1.2.3 - 2.3.4	1.x	true
+intersects	1.2.3 - 2.3.4	*	true
+intersects	1.2.3 - 2.3.4	>=1.2.3 <2.0.0	true
+intersects	1.2.3 - 2.3.4	1.2.3 - 2.3.4	true
+intersects	1.2.3 - 2.3.4	1.2.3 || >=2.0.0	true
+intersects	1.2.3 - 2.3.4	^1.2.3-alpha	true
+intersects	1.2.3 - 2.3.4	~1.2	true
+intersects	1.2.3 - 2.3.4	^1	true
+intersects	1.2.3 || >=2.0.0	1.2.3	true
+intersects	1.2.3 || >=2.0.0	=1.2.3	true
+intersects	1.2.3 || >=2.0.0	>1.2.3	true
+intersects	1.2.3 || >=2.0.0	>=1.2.3	true
+intersects	1.2.3 || >=2.0.0	<1.2.3	false
+intersects	1.2.3 || >=2.0.0	<=1.2.3	true
+intersects	1.2.3 || >=2.0.0	^1.2.3	true
+intersects	1.2.3 || >=2.0.0	~1.2.3	true
+intersects	1.2.3 || >=2.0.0	^0.2.3	false
+intersects	1.2.3 || >=2.0.0	^0.0.3	false
+intersects	1.2.3 || >=2.0.0	1.2.x	true
+intersects	1.2.3 || >=2.0.0	1.x	true
+intersects	1.2.3 || >=2.0.0	*	true
+intersects	1.2.3 || >=2.0.0	>=1.2.3 <2.0.0	true
+intersects	1.2.3 || >=2.0.0	1.2.3 - 2.3.4	true
+intersects	1.2.3 || >=2.0.0	1.2.3 || >=2.0.0	true
+intersects	1.2.3 || >=2.0.0	^1.2.3-alpha	true
+intersects	1.2.3 || >=2.0.0	~1.2	true
+intersects	1.2.3 || >=2.0.0	^1	true
+intersects	^1.2.3-alpha	1.2.3	true
+intersects	^1.2.3-alpha	=1.2.3	true
+intersects	^1.2.3-alpha	>1.2.3	true
+intersects	^1.2.3-alpha	>=1.2.3	true
+intersects	^1.2.3-alpha	<1.2.3	true
+intersects	^1.2.3-alpha	<=1.2.3	true
+intersects	^1.2.3-alpha	^1.2.3	true
+intersects	^1.2.3-alpha	~1.2.3	true
+intersects	^1.2.3-alpha	^0.2.3	false
+intersects	^1.2.3-alpha	^0.0.3	false
+intersects	^1.2.3-alpha	1.2.x	true
+intersects	^1.2.3-alpha	1.x	true
+intersects	^1.2.3-alpha	*	true
+intersects	^1.2.3-alpha	>=1.2.3 <2.0.0	true
+intersects	^1.2.3-alpha	1.2.3 - 2.3.4	true
+intersects	^1.2.3-alpha	1.2.3 || >=2.0.0	true
+intersects	^1.2.3-alpha	^1.2.3-alpha	true
+intersects	^1.2.3-alpha	~1.2	true
+intersects	^1.2.3-alpha	^1	true
+intersects	~1.2	1.2.3	true
+intersects	~1.2	=1.2.3	true
+intersects	~1.2	>1.2.3	true
+intersects	~1.2	>=1.2.3	true
+intersects	~1.2	<1.2.3	true
+intersects	~1.2	<=1.2.3	true
+intersects	~1.2	^1.2.3	true
+intersects	~1.2	~1.2.3	true
+intersects	~1.2	^0.2.3	false
+intersects	~1.2	^0.0.3	false
+intersects	~1.2	1.2.x	true
+intersects	~1.2	1.x	true
+intersects	~1.2	*	true
+intersects	~1.2	>=1.2.3 <2.0.0	true
+intersects	~1.2	1.2.3 - 2.3.4	true
+intersects	~1.2	1.2.3 || >=2.0.0	true
+intersects	~1.2	^1.2.3-alpha	true
+intersects	~1.2	~1.2	true
+intersects	~1.2	^1	true
+intersects	^1	1.2.3	true
+intersects	^1	=1.2.3	true
+intersects	^1	>1.2.3	true
+intersects	^1	>=1.2.3	true
+intersects	^1	<1.2.3	true
+intersects	^1	<=1.2.3	true
+intersects	^1	^1.2.3	true
+intersects	^1	~1.2.3	true
+intersects	^1	^0.2.3	false
+intersects	^1	^0.0.3	false
+intersects	^1	1.2.x	true
+intersects	^1	1.x	true
+intersects	^1	*	true
+intersects	^1	>=1.2.3 <2.0.0	true
+intersects	^1	1.2.3 - 2.3.4	true
+intersects	^1	1.2.3 || >=2.0.0	true
+intersects	^1	^1.2.3-alpha	true
+intersects	^1	~1.2	true
+intersects	^1	^1	true
+compare	0.0.0	0.0.0	0
+compare	0.0.0	1.0.0	-1
+compare	0.0.0	1.2.3	-1
+compare	0.0.0	1.2.4	-1
+compare	0.0.0	1.3.0	-1
+compare	0.0.0	2.0.0	-1
+compare	0.0.0	1.0.0-alpha	-1
+compare	0.0.0	1.0.0-alpha.1	-1
+compare	0.0.0	1.0.0-alpha.beta	-1
+compare	0.0.0	1.0.0-beta	-1
+compare	0.0.0	1.0.0-beta.2	-1
+compare	0.0.0	1.0.0-beta.11	-1
+compare	0.0.0	1.0.0-rc.1	-1
+compare	0.0.0	1.2.3-0	-1
+compare	0.0.0	2.0.0-0	-1
+compare	0.0.0	1.2.3+build	-1
+compare	0.0.0	1.0.0+007	-1
+compare	0.0.0	10.0.0	-1
+compare	1.0.0	0.0.0	1
+compare	1.0.0	1.0.0	0
+compare	1.0.0	1.2.3	-1
+compare	1.0.0	1.2.4	-1
+compare	1.0.0	1.3.0	-1
+compare	1.0.0	2.0.0	-1
+compare	1.0.0	1.0.0-alpha	1
+compare	1.0.0	1.0.0-alpha.1	1
+compare	1.0.0	1.0.0-alpha.beta	1
+compare	1.0.0	1.0.0-beta	1
+compare	1.0.0	1.0.0-beta.2	1
+compare	1.0.0	1.0.0-beta.11	1
+compare	1.0.0	1.0.0-rc.1	1
+compare	1.0.0	1.2.3-0	-1
+compare	1.0.0	2.0.0-0	-1
+compare	1.0.0	1.2.3+build	-1
+compare	1.0.0	1.0.0+007	0
+compare	1.0.0	10.0.0	-1
+compare	1.2.3	0.0.0	1
+compare	1.2.3	1.0.0	1
+compare	1.2.3	1.2.3	0
+compare	1.2.3	1.2.4	-1
+compare	1.2.3	1.3.0	-1
+compare	1.2.3	2.0.0	-1
+compare	1.2.3	1.0.0-alpha	1
+compare	1.2.3	1.0.0-alpha.1	1
+compare	1.2.3	1.0.0-alpha.beta	1
+compare	1.2.3	1.0.0-beta	1
+compare	1.2.3	1.0.0-beta.2	1
+compare	1.2.3	1.0.0-beta.11	1
+compare	1.2.3	1.0.0-rc.1	1
+compare	1.2.3	1.2.3-0	1
+compare	1.2.3	2.0.0-0	-1
+compare	1.2.3	1.2.3+build	0
+compare	1.2.3	1.0.0+007	1
+compare	1.2.3	10.0.0	-1
+compare	1.2.4	0.0.0	1
+compare	1.2.4	1.0.0	1
+compare	1.2.4	1.2.3	1
+compare	1.2.4	1.2.4	0
+compare	1.2.4	1.3.0	-1
+compare	1.2.4	2.0.0	-1
+compare	1.2.4	1.0.0-alpha	1
+compare	1.2.4	1.0.0-alpha.1	1
+compare	1.2.4	1.0.0-alpha.beta	1
+compare	1.2.4	1.0.0-beta	1
+compare	1.2.4	1.0.0-beta.2	1
+compare	1.2.4	1.0.0-beta.11	1
+compare	1.2.4	1.0.0-rc.1	1
+compare	1.2.4	1.2.3-0	1
+compare	1.2.4	2.0.0-0	-1
+compare	1.2.4	1.2.3+build	1
+compare	1.2.4	1.0.0+007	1
+compare	1.2.4	10.0.0	-1
+compare	1.3.0	0.0.0	1
+compare	1.3.0	1.0.0	1
+compare	1.3.0	1.2.3	1
+compare	1.3.0	1.2.4	1
+compare	1.3.0	1.3.0	0
+compare	1.3.0	2.0.0	-1
+compare	1.3.0	1.0.0-alpha	1
+compare	1.3.0	1.0.0-alpha.1	1
+compare	1.3.0	1.0.0-alpha.beta	1
+compare	1.3.0	1.0.0-beta	1
+compare	1.3.0	1.0.0-beta.2	1
+compare	1.3.0	1.0.0-beta.11	1
+compare	1.3.0	1.0.0-rc.1	1
+compare	1.3.0	1.2.3-0	1
+compare	1.3.0	2.0.0-0	-1
+compare	1.3.0	1.2.3+build	1
+compare	1.3.0	1.0.0+007	1
+compare	1.3.0	10.0.0	-1
+compare	2.0.0	0.0.0	1
+compare	2.0.0	1.0.0	1
+compare	2.0.0	1.2.3	1
+compare	2.0.0	1.2.4	1
+compare	2.0.0	1.3.0	1
+compare	2.0.0	2.0.0	0
+compare	2.0.0	1.0.0-alpha	1
+compare	2.0.0	1.0.0-alpha.1	1
+compare	2.0.0	1.0.0-alpha.beta	1
+compare	2.0.0	1.0.0-beta	1
+compare	2.0.0	1.0.0-beta.2	1
+compare	2.0.0	1.0.0-beta.11	1
+compare	2.0.0	1.0.0-rc.1	1
+compare	2.0.0	1.2.3-0	1
+compare	2.0.0	2.0.0-0	1
+compare	2.0.0	1.2.3+build	1
+compare	2.0.0	1.0.0+007	1
+compare	2.0.0	10.0.0	-1
+compare	1.0.0-alpha	0.0.0	1
+compare	1.0.0-alpha	1.0.0	-1
+compare	1.0.0-alpha	1.2.3	-1
+compare	1.0.0-alpha	1.2.4	-1
+compare	1.0.0-alpha	1.3.0	-1
+compare	1.0.0-alpha	2.0.0	-1
+compare	1.0.0-alpha	1.0.0-alpha	0
+compare	1.0.0-alpha	1.0.0-alpha.1	-1
+compare	1.0.0-alpha	1.0.0-alpha.beta	-1
+compare	1.0.0-alpha	1.0.0-beta	-1
+compare	1.0.0-alpha	1.0.0-beta.2	-1
+compare	1.0.0-alpha	1.0.0-beta.11	-1
+compare	1.0.0-alpha	1.0.0-rc.1	-1
+compare	1.0.0-alpha	1.2.3-0	-1
+compare	1.0.0-alpha	2.0.0-0	-1
+compare	1.0.0-alpha	1.2.3+build	-1
+compare	1.0.0-alpha	1.0.0+007	-1
+compare	1.0.0-alpha	10.0.0	-1
+compare	1.0.0-alpha.1	0.0.0	1
+compare	1.0.0-alpha.1	1.0.0	-1
+compare	1.0.0-alpha.1	1.2.3	-1
+compare	1.0.0-alpha.1	1.2.4	-1
+compare	1.0.0-alpha.1	1.3.0	-1
+compare	1.0.0-alpha.1	2.0.0	-1
+compare	1.0.0-alpha.1	1.0.0-alpha	1
+compare	1.0.0-alpha.1	1.0.0-alpha.1	0
+compare	1.0.0-alpha.1	1.0.0-alpha.beta	-1
+compare	1.0.0-alpha.1	1.0.0-beta	-1
+compare	1.0.0-alpha.1	1.0.0-beta.2	-1
+compare	1.0.0-alpha.1	1.0.0-beta.11	-1
+compare	1.0.0-alpha.1	1.0.0-rc.1	-1
+compare	1.0.0-alpha.1	1.2.3-0	-1
+compare	1.0.0-alpha.1	2.0.0-0	-1
+compare	1.0.0-alpha.1	1.2.3+build	-1
+compare	1.0.0-alpha.1	1.0.0+007	-1
+compare	1.0.0-alpha.1	10.0.0	-1
+compare	1.0.0-alpha.beta	0.0.0	1
+compare	1.0.0-alpha.beta	1.0.0	-1
+compare	1.0.0-alpha.beta	1.2.3	-1
+compare	1.0.0-alpha.beta	1.2.4	-1
+compare	1.0.0-alpha.beta	1.3.0	-1
+compare	1.0.0-alpha.beta	2.0.0	-1
+compare	1.0.0-alpha.beta	1.0.0-alpha	1
+compare	1.0.0-alpha.beta	1.0.0-alpha.1	1
+compare	1.0.0-alpha.beta	1.0.0-alpha.beta	0
+compare	1.0.0-alpha.beta	1.0.0-beta	-1
+compare	1.0.0-alpha.beta	1.0.0-beta.2	-1
+compare	1.0.0-alpha.beta	1.0.0-beta.11	-1
+compare	1.0.0-alpha.beta	1.0.0-rc.1	-1
+compare	1.0.0-alpha.beta	1.2.3-0	-1
+compare	1.0.0-alpha.beta	2.0.0-0	-1
+compare	1.0.0-alpha.beta	1.2.3+build	-1
+compare	1.0.0-alpha.beta	1.0.0+007	-1
+compare	1.0.0-alpha.beta	10.0.0	-1
+compare	1.0.0-beta	0.0.0	1
+compare	1.0.0-beta	1.0.0	-1
+compare	1.0.0-beta	1.2.3	-1
+compare	1.0.0-beta	1.2.4	-1
+compare	1.0.0-beta	1.3.0	-1
+compare	1.0.0-beta	2.0.0	-1
+compare	1.0.0-beta	1.0.0-alpha	1
+compare	1.0.0-beta	1.0.0-alpha.1	1
+compare	1.0.0-beta	1.0.0-alpha.beta	1
+compare	1.0.0-beta	1.0.0-beta	0
+compare	1.0.0-beta	1.0.0-beta.2	-1
+compare	1.0.0-beta	1.0.0-beta.11	-1
+compare	1.0.0-beta	1.0.0-rc.1	-1
+compare	1.0.0-beta	1.2.3-0	-1
+compare	1.0.0-beta	2.0.0-0	-1
+compare	1.0.0-beta	1.2.3+build	-1
+compare	1.0.0-beta	1.0.0+007	-1
+compare	1.0.0-beta	10.0.0	-1
+compare	1.0.0-beta.2	0.0.0	1
+compare	1.0.0-beta.2	1.0.0	-1
+compare	1.0.0-beta.2	1.2.3	-1
+compare	1.0.0-beta.2	1.2.4	-1
+compare	1.0.0-beta.2	1.3.0	-1
+compare	1.0.0-beta.2	2.0.0	-1
+compare	1.0.0-beta.2	1.0.0-alpha	1
+compare	1.0.0-beta.2	1.0.0-alpha.1	1
+compare	1.0.0-beta.2	1.0.0-alpha.beta	1
+compare	1.0.0-beta.2	1.0.0-beta	1
+compare	1.0.0-beta.2	1.0.0-beta.2	0
+compare	1.0.0-beta.2	1.0.0-beta.11	-1
+compare	1.0.0-beta.2	1.0.0-rc.1	-1
+compare	1.0.0-beta.2	1.2.3-0	-1
+compare	1.0.0-beta.2	2.0.0-0	-1
+compare	1.0.0-beta.2	1.2.3+build	-1
+compare	1.0.0-beta.2	1.0.0+007	-1
+compare	1.0.0-beta.2	10.0.0	-1
+compare	1.0.0-beta.11	0.0.0	1
+compare	1.0.0-beta.11	1.0.0	-1
+compare	1.0.0-beta.11	1.2.3	-1
+compare	1.0.0-beta.11	1.2.4	-1
+compare	1.0.0-beta.11	1.3.0	-1
+compare	1.0.0-beta.11	2.0.0	-1
+compare	1.0.0-beta.11	1.0.0-alpha	1
+compare	1.0.0-beta.11	1.0.0-alpha.1	1
+compare	1.0.0-beta.11	1.0.0-alpha.beta	1
+compare	1.0.0-beta.11	1.0.0-beta	1
+compare	1.0.0-beta.11	1.0.0-beta.2	1
+compare	1.0.0-beta.11	1.0.0-beta.11	0
+compare	1.0.0-beta.11	1.0.0-rc.1	-1
+compare	1.0.0-beta.11	1.2.3-0	-1
+compare	1.0.0-beta.11	2.0.0-0	-1
+compare	1.0.0-beta.11	1.2.3+build	-1
+compare	1.0.0-beta.11	1.0.0+007	-1
+compare	1.0.0-beta.11	10.0.0	-1
+compare	1.0.0-rc.1	0.0.0	1
+compare	1.0.0-rc.1	1.0.0	-1
+compare	1.0.0-rc.1	1.2.3	-1
+compare	1.0.0-rc.1	1.2.4	-1
+compare	1.0.0-rc.1	1.3.0	-1
+compare	1.0.0-rc.1	2.0.0	-1
+compare	1.0.0-rc.1	1.0.0-alpha	1
+compare	1.0.0-rc.1	1.0.0-alpha.1	1
+compare	1.0.0-rc.1	1.0.0-alpha.beta	1
+compare	1.0.0-rc.1	1.0.0-beta	1
+compare	1.0.0-rc.1	1.0.0-beta.2	1
+compare	1.0.0-rc.1	1.0.0-beta.11	1
+compare	1.0.0-rc.1	1.0.0-rc.1	0
+compare	1.0.0-rc.1	1.2.3-0	-1
+compare	1.0.0-rc.1	2.0.0-0	-1
+compare	1.0.0-rc.1	1.2.3+build	-1
+compare	1.0.0-rc.1	1.0.0+007	-1
+compare	1.0.0-rc.1	10.0.0	-1
+compare	1.2.3-0	0.0.0	1
+compare	1.2.3-0	1.0.0	1
+compare	1.2.3-0	1.2.3	-1
+compare	1.2.3-0	1.2.4	-1
+compare	1.2.3-0	1.3.0	-1
+compare	1.2.3-0	2.0.0	-1
+compare	1.2.3-0	1.0.0-alpha	1
+compare	1.2.3-0	1.0.0-alpha.1	1
+compare	1.2.3-0	1.0.0-alpha.beta	1
+compare	1.2.3-0	1.0.0-beta	1
+compare	1.2.3-0	1.0.0-beta.2	1
+compare	1.2.3-0	1.0.0-beta.11	1
+compare	1.2.3-0	1.0.0-rc.1	1
+compare	1.2.3-0	1.2.3-0	0
+compare	1.2.3-0	2.0.0-0	-1
+compare	1.2.3-0	1.2.3+build	-1
+compare	1.2.3-0	1.0.0+007	1
+compare	1.2.3-0	10.0.0	-1
+compare	2.0.0-0	0.0.0	1
+compare	2.0.0-0	1.0.0	1
+compare	2.0.0-0	1.2.3	1
+compare	2.0.0-0	1.2.4	1
+compare	2.0.0-0	1.3.0	1
+compare	2.0.0-0	2.0.0	-1
+compare	2.0.0-0	1.0.0-alpha	1
+compare	2.0.0-0	1.0.0-alpha.1	1
+compare	2.0.0-0	1.0.0-alpha.beta	1
+compare	2.0.0-0	1.0.0-beta	1
+compare	2.0.0-0	1.0.0-beta.2	1
+compare	2.0.0-0	1.0.0-beta.11	1
+compare	2.0.0-0	1.0.0-rc.1	1
+compare	2.0.0-0	1.2.3-0	1
+compare	2.0.0-0	2.0.0-0	0
+compare	2.0.0-0	1.2.3+build	1
+compare	2.0.0-0	1.0.0+007	1
+compare	2.0.0-0	10.0.0	-1
+compare	1.2.3+build	0.0.0	1
+compare	1.2.3+build	1.0.0	1
+compare	1.2.3+build	1.2.3	0
+compare	1.2.3+build	1.2.4	-1
+compare	1.2.3+build	1.3.0	-1
+compare	1.2.3+build	2.0.0	-1
+compare	1.2.3+build	1.0.0-alpha	1
+compare	1.2.3+build	1.0.0-alpha.1	1
+compare	1.2.3+build	1.0.0-alpha.beta	1
+compare	1.2.3+build	1.0.0-beta	1
+compare	1.2.3+build	1.0.0-beta.2	1
+compare	1.2.3+build	1.0.0-beta.11	1
+compare	1.2.3+build	1.0.0-rc.1	1
+compare	1.2.3+build	1.2.3-0	1
+compare	1.2.3+build	2.0.0-0	-1
+compare	1.2.3+build	1.2.3+build	0
+compare	1.2.3+build	1.0.0+007	1
+compare	1.2.3+build	10.0.0	-1
+compare	1.0.0+007	0.0.0	1
+compare	1.0.0+007	1.0.0	0
+compare	1.0.0+007	1.2.3	-1
+compare	1.0.0+007	1.2.4	-1
+compare	1.0.0+007	1.3.0	-1
+compare	1.0.0+007	2.0.0	-1
+compare	1.0.0+007	1.0.0-alpha	1
+compare	1.0.0+007	1.0.0-alpha.1	1
+compare	1.0.0+007	1.0.0-alpha.beta	1
+compare	1.0.0+007	1.0.0-beta	1
+compare	1.0.0+007	1.0.0-beta.2	1
+compare	1.0.0+007	1.0.0-beta.11	1
+compare	1.0.0+007	1.0.0-rc.1	1
+compare	1.0.0+007	1.2.3-0	-1
+compare	1.0.0+007	2.0.0-0	-1
+compare	1.0.0+007	1.2.3+build	-1
+compare	1.0.0+007	1.0.0+007	0
+compare	1.0.0+007	10.0.0	-1
+compare	10.0.0	0.0.0	1
+compare	10.0.0	1.0.0	1
+compare	10.0.0	1.2.3	1
+compare	10.0.0	1.2.4	1
+compare	10.0.0	1.3.0	1
+compare	10.0.0	2.0.0	1
+compare	10.0.0	1.0.0-alpha	1
+compare	10.0.0	1.0.0-alpha.1	1
+compare	10.0.0	1.0.0-alpha.beta	1
+compare	10.0.0	1.0.0-beta	1
+compare	10.0.0	1.0.0-beta.2	1
+compare	10.0.0	1.0.0-beta.11	1
+compare	10.0.0	1.0.0-rc.1	1
+compare	10.0.0	1.2.3-0	1
+compare	10.0.0	2.0.0-0	1
+compare	10.0.0	1.2.3+build	1
+compare	10.0.0	1.0.0+007	1
+compare	10.0.0	10.0.0	0
+diff	0.0.0	0.0.0	NULL
+diff	0.0.0	1.0.0	major
+diff	0.0.0	1.2.3	major
+diff	0.0.0	1.2.4	major
+diff	0.0.0	1.3.0	major
+diff	0.0.0	2.0.0	major
+diff	0.0.0	1.0.0-alpha	premajor
+diff	0.0.0	1.0.0-alpha.1	premajor
+diff	0.0.0	1.0.0-alpha.beta	premajor
+diff	0.0.0	1.0.0-beta	premajor
+diff	0.0.0	1.0.0-beta.2	premajor
+diff	0.0.0	1.0.0-beta.11	premajor
+diff	0.0.0	1.0.0-rc.1	premajor
+diff	0.0.0	1.2.3-0	premajor
+diff	0.0.0	2.0.0-0	premajor
+diff	0.0.0	1.2.3+build	major
+diff	0.0.0	1.0.0+007	major
+diff	0.0.0	10.0.0	major
+diff	1.0.0	0.0.0	major
+diff	1.0.0	1.0.0	NULL
+diff	1.0.0	1.2.3	minor
+diff	1.0.0	1.2.4	minor
+diff	1.0.0	1.3.0	minor
+diff	1.0.0	2.0.0	major
+diff	1.0.0	1.0.0-alpha	major
+diff	1.0.0	1.0.0-alpha.1	major
+diff	1.0.0	1.0.0-alpha.beta	major
+diff	1.0.0	1.0.0-beta	major
+diff	1.0.0	1.0.0-beta.2	major
+diff	1.0.0	1.0.0-beta.11	major
+diff	1.0.0	1.0.0-rc.1	major
+diff	1.0.0	1.2.3-0	preminor
+diff	1.0.0	2.0.0-0	premajor
+diff	1.0.0	1.2.3+build	minor
+diff	1.0.0	1.0.0+007	NULL
+diff	1.0.0	10.0.0	major
+diff	1.2.3	0.0.0	major
+diff	1.2.3	1.0.0	minor
+diff	1.2.3	1.2.3	NULL
+diff	1.2.3	1.2.4	patch
+diff	1.2.3	1.3.0	minor
+diff	1.2.3	2.0.0	major
+diff	1.2.3	1.0.0-alpha	major
+diff	1.2.3	1.0.0-alpha.1	major
+diff	1.2.3	1.0.0-alpha.beta	major
+diff	1.2.3	1.0.0-beta	major
+diff	1.2.3	1.0.0-beta.2	major
+diff	1.2.3	1.0.0-beta.11	major
+diff	1.2.3	1.0.0-rc.1	major
+diff	1.2.3	1.2.3-0	patch
+diff	1.2.3	2.0.0-0	premajor
+diff	1.2.3	1.2.3+build	NULL
+diff	1.2.3	1.0.0+007	minor
+diff	1.2.3	10.0.0	major
+diff	1.2.4	0.0.0	major
+diff	1.2.4	1.0.0	minor
+diff	1.2.4	1.2.3	patch
+diff	1.2.4	1.2.4	NULL
+diff	1.2.4	1.3.0	minor
+diff	1.2.4	2.0.0	major
+diff	1.2.4	1.0.0-alpha	major
+diff	1.2.4	1.0.0-alpha.1	major
+diff	1.2.4	1.0.0-alpha.beta	major
+diff	1.2.4	1.0.0-beta	major
+diff	1.2.4	1.0.0-beta.2	major
+diff	1.2.4	1.0.0-beta.11	major
+diff	1.2.4	1.0.0-rc.1	major
+diff	1.2.4	1.2.3-0	patch
+diff	1.2.4	2.0.0-0	premajor
+diff	1.2.4	1.2.3+build	patch
+diff	1.2.4	1.0.0+007	minor
+diff	1.2.4	10.0.0	major
+diff	1.3.0	0.0.0	major
+diff	1.3.0	1.0.0	minor
+diff	1.3.0	1.2.3	minor
+diff	1.3.0	1.2.4	minor
+diff	1.3.0	1.3.0	NULL
+diff	1.3.0	2.0.0	major
+diff	1.3.0	1.0.0-alpha	major
+diff	1.3.0	1.0.0-alpha.1	major
+diff	1.3.0	1.0.0-alpha.beta	major
+diff	1.3.0	1.0.0-beta	major
+diff	1.3.0	1.0.0-beta.2	major
+diff	1.3.0	1.0.0-beta.11	major
+diff	1.3.0	1.0.0-rc.1	major
+diff	1.3.0	1.2.3-0	minor
+diff	1.3.0	2.0.0-0	premajor
+diff	1.3.0	1.2.3+build	minor
+diff	1.3.0	1.0.0+007	minor
+diff	1.3.0	10.0.0	major
+diff	2.0.0	0.0.0	major
+diff	2.0.0	1.0.0	major
+diff	2.0.0	1.2.3	major
+diff	2.0.0	1.2.4	major
+diff	2.0.0	1.3.0	major
+diff	2.0.0	2.0.0	NULL
+diff	2.0.0	1.0.0-alpha	major
+diff	2.0.0	1.0.0-alpha.1	major
+diff	2.0.0	1.0.0-alpha.beta	major
+diff	2.0.0	1.0.0-beta	major
+diff	2.0.0	1.0.0-beta.2	major
+diff	2.0.0	1.0.0-beta.11	major
+diff	2.0.0	1.0.0-rc.1	major
+diff	2.0.0	1.2.3-0	major
+diff	2.0.0	2.0.0-0	major
+diff	2.0.0	1.2.3+build	major
+diff	2.0.0	1.0.0+007	major
+diff	2.0.0	10.0.0	major
+diff	1.0.0-alpha	0.0.0	premajor
+diff	1.0.0-alpha	1.0.0	major
+diff	1.0.0-alpha	1.2.3	major
+diff	1.0.0-alpha	1.2.4	major
+diff	1.0.0-alpha	1.3.0	major
+diff	1.0.0-alpha	2.0.0	major
+diff	1.0.0-alpha	1.0.0-alpha	NULL
+diff	1.0.0-alpha	1.0.0-alpha.1	prerelease
+diff	1.0.0-alpha	1.0.0-alpha.beta	prerelease
+diff	1.0.0-alpha	1.0.0-beta	prerelease
+diff	1.0.0-alpha	1.0.0-beta.2	prerelease
+diff	1.0.0-alpha	1.0.0-beta.11	prerelease
+diff	1.0.0-alpha	1.0.0-rc.1	prerelease
+diff	1.0.0-alpha	1.2.3-0	preminor
+diff	1.0.0-alpha	2.0.0-0	premajor
+diff	1.0.0-alpha	1.2.3+build	major
+diff	1.0.0-alpha	1.0.0+007	major
+diff	1.0.0-alpha	10.0.0	major
+diff	1.0.0-alpha.1	0.0.0	premajor
+diff	1.0.0-alpha.1	1.0.0	major
+diff	1.0.0-alpha.1	1.2.3	major
+diff	1.0.0-alpha.1	1.2.4	major
+diff	1.0.0-alpha.1	1.3.0	major
+diff	1.0.0-alpha.1	2.0.0	major
+diff	1.0.0-alpha.1	1.0.0-alpha	prerelease
+diff	1.0.0-alpha.1	1.0.0-alpha.1	NULL
+diff	1.0.0-alpha.1	1.0.0-alpha.beta	prerelease
+diff	1.0.0-alpha.1	1.0.0-beta	prerelease
+diff	1.0.0-alpha.1	1.0.0-beta.2	prerelease
+diff	1.0.0-alpha.1	1.0.0-beta.11	prerelease
+diff	1.0.0-alpha.1	1.0.0-rc.1	prerelease
+diff	1.0.0-alpha.1	1.2.3-0	preminor
+diff	1.0.0-alpha.1	2.0.0-0	premajor
+diff	1.0.0-alpha.1	1.2.3+build	major
+diff	1.0.0-alpha.1	1.0.0+007	major
+diff	1.0.0-alpha.1	10.0.0	major
+diff	1.0.0-alpha.beta	0.0.0	premajor
+diff	1.0.0-alpha.beta	1.0.0	major
+diff	1.0.0-alpha.beta	1.2.3	major
+diff	1.0.0-alpha.beta	1.2.4	major
+diff	1.0.0-alpha.beta	1.3.0	major
+diff	1.0.0-alpha.beta	2.0.0	major
+diff	1.0.0-alpha.beta	1.0.0-alpha	prerelease
+diff	1.0.0-alpha.beta	1.0.0-alpha.1	prerelease
+diff	1.0.0-alpha.beta	1.0.0-alpha.beta	NULL
+diff	1.0.0-alpha.beta	1.0.0-beta	prerelease
+diff	1.0.0-alpha.beta	1.0.0-beta.2	prerelease
+diff	1.0.0-alpha.beta	1.0.0-beta.11	prerelease
+diff	1.0.0-alpha.beta	1.0.0-rc.1	prerelease
+diff	1.0.0-alpha.beta	1.2.3-0	preminor
+diff	1.0.0-alpha.beta	2.0.0-0	premajor
+diff	1.0.0-alpha.beta	1.2.3+build	major
+diff	1.0.0-alpha.beta	1.0.0+007	major
+diff	1.0.0-alpha.beta	10.0.0	major
+diff	1.0.0-beta	0.0.0	premajor
+diff	1.0.0-beta	1.0.0	major
+diff	1.0.0-beta	1.2.3	major
+diff	1.0.0-beta	1.2.4	major
+diff	1.0.0-beta	1.3.0	major
+diff	1.0.0-beta	2.0.0	major
+diff	1.0.0-beta	1.0.0-alpha	prerelease
+diff	1.0.0-beta	1.0.0-alpha.1	prerelease
+diff	1.0.0-beta	1.0.0-alpha.beta	prerelease
+diff	1.0.0-beta	1.0.0-beta	NULL
+diff	1.0.0-beta	1.0.0-beta.2	prerelease
+diff	1.0.0-beta	1.0.0-beta.11	prerelease
+diff	1.0.0-beta	1.0.0-rc.1	prerelease
+diff	1.0.0-beta	1.2.3-0	preminor
+diff	1.0.0-beta	2.0.0-0	premajor
+diff	1.0.0-beta	1.2.3+build	major
+diff	1.0.0-beta	1.0.0+007	major
+diff	1.0.0-beta	10.0.0	major
+diff	1.0.0-beta.2	0.0.0	premajor
+diff	1.0.0-beta.2	1.0.0	major
+diff	1.0.0-beta.2	1.2.3	major
+diff	1.0.0-beta.2	1.2.4	major
+diff	1.0.0-beta.2	1.3.0	major
+diff	1.0.0-beta.2	2.0.0	major
+diff	1.0.0-beta.2	1.0.0-alpha	prerelease
+diff	1.0.0-beta.2	1.0.0-alpha.1	prerelease
+diff	1.0.0-beta.2	1.0.0-alpha.beta	prerelease
+diff	1.0.0-beta.2	1.0.0-beta	prerelease
+diff	1.0.0-beta.2	1.0.0-beta.2	NULL
+diff	1.0.0-beta.2	1.0.0-beta.11	prerelease
+diff	1.0.0-beta.2	1.0.0-rc.1	prerelease
+diff	1.0.0-beta.2	1.2.3-0	preminor
+diff	1.0.0-beta.2	2.0.0-0	premajor
+diff	1.0.0-beta.2	1.2.3+build	major
+diff	1.0.0-beta.2	1.0.0+007	major
+diff	1.0.0-beta.2	10.0.0	major
+diff	1.0.0-beta.11	0.0.0	premajor
+diff	1.0.0-beta.11	1.0.0	major
+diff	1.0.0-beta.11	1.2.3	major
+diff	1.0.0-beta.11	1.2.4	major
+diff	1.0.0-beta.11	1.3.0	major
+diff	1.0.0-beta.11	2.0.0	major
+diff	1.0.0-beta.11	1.0.0-alpha	prerelease
+diff	1.0.0-beta.11	1.0.0-alpha.1	prerelease
+diff	1.0.0-beta.11	1.0.0-alpha.beta	prerelease
+diff	1.0.0-beta.11	1.0.0-beta	prerelease
+diff	1.0.0-beta.11	1.0.0-beta.2	prerelease
+diff	1.0.0-beta.11	1.0.0-beta.11	NULL
+diff	1.0.0-beta.11	1.0.0-rc.1	prerelease
+diff	1.0.0-beta.11	1.2.3-0	preminor
+diff	1.0.0-beta.11	2.0.0-0	premajor
+diff	1.0.0-beta.11	1.2.3+build	major
+diff	1.0.0-beta.11	1.0.0+007	major
+diff	1.0.0-beta.11	10.0.0	major
+diff	1.0.0-rc.1	0.0.0	premajor
+diff	1.0.0-rc.1	1.0.0	major
+diff	1.0.0-rc.1	1.2.3	major
+diff	1.0.0-rc.1	1.2.4	major
+diff	1.0.0-rc.1	1.3.0	major
+diff	1.0.0-rc.1	2.0.0	major
+diff	1.0.0-rc.1	1.0.0-alpha	prerelease
+diff	1.0.0-rc.1	1.0.0-alpha.1	prerelease
+diff	1.0.0-rc.1	1.0.0-alpha.beta	prerelease
+diff	1.0.0-rc.1	1.0.0-beta	prerelease
+diff	1.0.0-rc.1	1.0.0-beta.2	prerelease
+diff	1.0.0-rc.1	1.0.0-beta.11	prerelease
+diff	1.0.0-rc.1	1.0.0-rc.1	NULL
+diff	1.0.0-rc.1	1.2.3-0	preminor
+diff	1.0.0-rc.1	2.0.0-0	premajor
+diff	1.0.0-rc.1	1.2.3+build	major
+diff	1.0.0-rc.1	1.0.0+007	major
+diff	1.0.0-rc.1	10.0.0	major
+diff	1.2.3-0	0.0.0	premajor
+diff	1.2.3-0	1.0.0	preminor
+diff	1.2.3-0	1.2.3	patch
+diff	1.2.3-0	1.2.4	patch
+diff	1.2.3-0	1.3.0	minor
+diff	1.2.3-0	2.0.0	major
+diff	1.2.3-0	1.0.0-alpha	preminor
+diff	1.2.3-0	1.0.0-alpha.1	preminor
+diff	1.2.3-0	1.0.0-alpha.beta	preminor
+diff	1.2.3-0	1.0.0-beta	preminor
+diff	1.2.3-0	1.0.0-beta.2	preminor
+diff	1.2.3-0	1.0.0-beta.11	preminor
+diff	1.2.3-0	1.0.0-rc.1	preminor
+diff	1.2.3-0	1.2.3-0	NULL
+diff	1.2.3-0	2.0.0-0	premajor
+diff	1.2.3-0	1.2.3+build	patch
+diff	1.2.3-0	1.0.0+007	preminor
+diff	1.2.3-0	10.0.0	major
+diff	2.0.0-0	0.0.0	premajor
+diff	2.0.0-0	1.0.0	premajor
+diff	2.0.0-0	1.2.3	premajor
+diff	2.0.0-0	1.2.4	premajor
+diff	2.0.0-0	1.3.0	premajor
+diff	2.0.0-0	2.0.0	major
+diff	2.0.0-0	1.0.0-alpha	premajor
+diff	2.0.0-0	1.0.0-alpha.1	premajor
+diff	2.0.0-0	1.0.0-alpha.beta	premajor
+diff	2.0.0-0	1.0.0-beta	premajor
+diff	2.0.0-0	1.0.0-beta.2	premajor
+diff	2.0.0-0	1.0.0-beta.11	premajor
+diff	2.0.0-0	1.0.0-rc.1	premajor
+diff	2.0.0-0	1.2.3-0	premajor
+diff	2.0.0-0	2.0.0-0	NULL
+diff	2.0.0-0	1.2.3+build	premajor
+diff	2.0.0-0	1.0.0+007	premajor
+diff	2.0.0-0	10.0.0	major
+diff	1.2.3+build	0.0.0	major
+diff	1.2.3+build	1.0.0	minor
+diff	1.2.3+build	1.2.3	NULL
+diff	1.2.3+build	1.2.4	patch
+diff	1.2.3+build	1.3.0	minor
+diff	1.2.3+build	2.0.0	major
+diff	1.2.3+build	1.0.0-alpha	major
+diff	1.2.3+build	1.0.0-alpha.1	major
+diff	1.2.3+build	1.0.0-alpha.beta	major
+diff	1.2.3+build	1.0.0-beta	major
+diff	1.2.3+build	1.0.0-beta.2	major
+diff	1.2.3+build	1.0.0-beta.11	major
+diff	1.2.3+build	1.0.0-rc.1	major
+diff	1.2.3+build	1.2.3-0	patch
+diff	1.2.3+build	2.0.0-0	premajor
+diff	1.2.3+build	1.2.3+build	NULL
+diff	1.2.3+build	1.0.0+007	minor
+diff	1.2.3+build	10.0.0	major
+diff	1.0.0+007	0.0.0	major
+diff	1.0.0+007	1.0.0	NULL
+diff	1.0.0+007	1.2.3	minor
+diff	1.0.0+007	1.2.4	minor
+diff	1.0.0+007	1.3.0	minor
+diff	1.0.0+007	2.0.0	major
+diff	1.0.0+007	1.0.0-alpha	major
+diff	1.0.0+007	1.0.0-alpha.1	major
+diff	1.0.0+007	1.0.0-alpha.beta	major
+diff	1.0.0+007	1.0.0-beta	major
+diff	1.0.0+007	1.0.0-beta.2	major
+diff	1.0.0+007	1.0.0-beta.11	major
+diff	1.0.0+007	1.0.0-rc.1	major
+diff	1.0.0+007	1.2.3-0	preminor
+diff	1.0.0+007	2.0.0-0	premajor
+diff	1.0.0+007	1.2.3+build	minor
+diff	1.0.0+007	1.0.0+007	NULL
+diff	1.0.0+007	10.0.0	major
+diff	10.0.0	0.0.0	major
+diff	10.0.0	1.0.0	major
+diff	10.0.0	1.2.3	major
+diff	10.0.0	1.2.4	major
+diff	10.0.0	1.3.0	major
+diff	10.0.0	2.0.0	major
+diff	10.0.0	1.0.0-alpha	major
+diff	10.0.0	1.0.0-alpha.1	major
+diff	10.0.0	1.0.0-alpha.beta	major
+diff	10.0.0	1.0.0-beta	major
+diff	10.0.0	1.0.0-beta.2	major
+diff	10.0.0	1.0.0-beta.11	major
+diff	10.0.0	1.0.0-rc.1	major
+diff	10.0.0	1.2.3-0	major
+diff	10.0.0	2.0.0-0	major
+diff	10.0.0	1.2.3+build	major
+diff	10.0.0	1.0.0+007	major
+diff	10.0.0	10.0.0	NULL
+inc	0.0.0	major	1.0.0
+inc	0.0.0	minor	0.1.0
+inc	0.0.0	patch	0.0.1
+inc	0.0.0	premajor	1.0.0-0
+inc	0.0.0	preminor	0.1.0-0
+inc	0.0.0	prepatch	0.0.1-0
+inc	0.0.0	prerelease	0.0.1-0
+inc	1.0.0	major	2.0.0
+inc	1.0.0	minor	1.1.0
+inc	1.0.0	patch	1.0.1
+inc	1.0.0	premajor	2.0.0-0
+inc	1.0.0	preminor	1.1.0-0
+inc	1.0.0	prepatch	1.0.1-0
+inc	1.0.0	prerelease	1.0.1-0
+inc	1.2.3	major	2.0.0
+inc	1.2.3	minor	1.3.0
+inc	1.2.3	patch	1.2.4
+inc	1.2.3	premajor	2.0.0-0
+inc	1.2.3	preminor	1.3.0-0
+inc	1.2.3	prepatch	1.2.4-0
+inc	1.2.3	prerelease	1.2.4-0
+inc	1.2.4	major	2.0.0
+inc	1.2.4	minor	1.3.0
+inc	1.2.4	patch	1.2.5
+inc	1.2.4	premajor	2.0.0-0
+inc	1.2.4	preminor	1.3.0-0
+inc	1.2.4	prepatch	1.2.5-0
+inc	1.2.4	prerelease	1.2.5-0
+inc	1.3.0	major	2.0.0
+inc	1.3.0	minor	1.4.0
+inc	1.3.0	patch	1.3.1
+inc	1.3.0	premajor	2.0.0-0
+inc	1.3.0	preminor	1.4.0-0
+inc	1.3.0	prepatch	1.3.1-0
+inc	1.3.0	prerelease	1.3.1-0
+inc	2.0.0	major	3.0.0
+inc	2.0.0	minor	2.1.0
+inc	2.0.0	patch	2.0.1
+inc	2.0.0	premajor	3.0.0-0
+inc	2.0.0	preminor	2.1.0-0
+inc	2.0.0	prepatch	2.0.1-0
+inc	2.0.0	prerelease	2.0.1-0
+inc	1.0.0-alpha	major	1.0.0
+inc	1.0.0-alpha	minor	1.0.0
+inc	1.0.0-alpha	patch	1.0.0
+inc	1.0.0-alpha	premajor	2.0.0-0
+inc	1.0.0-alpha	preminor	1.1.0-0
+inc	1.0.0-alpha	prepatch	1.0.1-0
+inc	1.0.0-alpha	prerelease	1.0.0-alpha.0
+inc	1.0.0-alpha.1	major	1.0.0
+inc	1.0.0-alpha.1	minor	1.0.0
+inc	1.0.0-alpha.1	patch	1.0.0
+inc	1.0.0-alpha.1	premajor	2.0.0-0
+inc	1.0.0-alpha.1	preminor	1.1.0-0
+inc	1.0.0-alpha.1	prepatch	1.0.1-0
+inc	1.0.0-alpha.1	prerelease	1.0.0-alpha.2
+inc	1.0.0-alpha.beta	major	1.0.0
+inc	1.0.0-alpha.beta	minor	1.0.0
+inc	1.0.0-alpha.beta	patch	1.0.0
+inc	1.0.0-alpha.beta	premajor	2.0.0-0
+inc	1.0.0-alpha.beta	preminor	1.1.0-0
+inc	1.0.0-alpha.beta	prepatch	1.0.1-0
+inc	1.0.0-alpha.beta	prerelease	1.0.0-alpha.beta.0
+inc	1.0.0-beta	major	1.0.0
+inc	1.0.0-beta	minor	1.0.0
+inc	1.0.0-beta	patch	1.0.0
+inc	1.0.0-beta	premajor	2.0.0-0
+inc	1.0.0-beta	preminor	1.1.0-0
+inc	1.0.0-beta	prepatch	1.0.1-0
+inc	1.0.0-beta	prerelease	1.0.0-beta.0
+inc	1.0.0-beta.2	major	1.0.0
+inc	1.0.0-beta.2	minor	1.0.0
+inc	1.0.0-beta.2	patch	1.0.0
+inc	1.0.0-beta.2	premajor	2.0.0-0
+inc	1.0.0-beta.2	preminor	1.1.0-0
+inc	1.0.0-beta.2	prepatch	1.0.1-0
+inc	1.0.0-beta.2	prerelease	1.0.0-beta.3
+inc	1.0.0-beta.11	major	1.0.0
+inc	1.0.0-beta.11	minor	1.0.0
+inc	1.0.0-beta.11	patch	1.0.0
+inc	1.0.0-beta.11	premajor	2.0.0-0
+inc	1.0.0-beta.11	preminor	1.1.0-0
+inc	1.0.0-beta.11	prepatch	1.0.1-0
+inc	1.0.0-beta.11	prerelease	1.0.0-beta.12
+inc	1.0.0-rc.1	major	1.0.0
+inc	1.0.0-rc.1	minor	1.0.0
+inc	1.0.0-rc.1	patch	1.0.0
+inc	1.0.0-rc.1	premajor	2.0.0-0
+inc	1.0.0-rc.1	preminor	1.1.0-0
+inc	1.0.0-rc.1	prepatch	1.0.1-0
+inc	1.0.0-rc.1	prerelease	1.0.0-rc.2
+inc	1.2.3-0	major	2.0.0
+inc	1.2.3-0	minor	1.3.0
+inc	1.2.3-0	patch	1.2.3
+inc	1.2.3-0	premajor	2.0.0-0
+inc	1.2.3-0	preminor	1.3.0-0
+inc	1.2.3-0	prepatch	1.2.4-0
+inc	1.2.3-0	prerelease	1.2.3-1
+inc	2.0.0-0	major	2.0.0
+inc	2.0.0-0	minor	2.0.0
+inc	2.0.0-0	patch	2.0.0
+inc	2.0.0-0	premajor	3.0.0-0
+inc	2.0.0-0	preminor	2.1.0-0
+inc	2.0.0-0	prepatch	2.0.1-0
+inc	2.0.0-0	prerelease	2.0.0-1
+inc	1.2.3+build	major	2.0.0
+inc	1.2.3+build	minor	1.3.0
+inc	1.2.3+build	patch	1.2.4
+inc	1.2.3+build	premajor	2.0.0-0
+inc	1.2.3+build	preminor	1.3.0-0
+inc	1.2.3+build	prepatch	1.2.4-0
+inc	1.2.3+build	prerelease	1.2.4-0
+inc	1.0.0+007	major	2.0.0
+inc	1.0.0+007	minor	1.1.0
+inc	1.0.0+007	patch	1.0.1
+inc	1.0.0+007	premajor	2.0.0-0
+inc	1.0.0+007	preminor	1.1.0-0
+inc	1.0.0+007	prepatch	1.0.1-0
+inc	1.0.0+007	prerelease	1.0.1-0
+inc	10.0.0	major	11.0.0
+inc	10.0.0	minor	10.1.0
+inc	10.0.0	patch	10.0.1
+inc	10.0.0	premajor	11.0.0-0
+inc	10.0.0	preminor	10.1.0-0
+inc	10.0.0	prepatch	10.0.1-0
+inc	10.0.0	prerelease	10.0.1-0
+coerce	v1.2		1.2.0
+coerce	app-1.2.3.jar		1.2.3
+coerce	release 4		4.0.0
+coerce	1.2.3.4.5		1.2.3
+coerce	.2.3		2.3.0
+coerce	1.2.3-alpha		1.2.3
+coerce	=1.2.3		1.2.3
+coerce	10.0.0.0		10.0.0
+coerce	1.2.3.4		1.2.3
+coerce	a1b2c3		1.0.0
+coerce	01.02.03		NULL
+coerce	1.2		1.2.0
+coerce	123456789012345678.5.6		5.6.0
+coerce	99999999999999999999.0.0		0.0.0
+coerce	version 2.3		2.3.0
+coerce	x.y.z		NULL
+coerce	2		2.0.0
+coerce	1.2.x		1.2.0
+coerce	1.0.0		1.0.0
+coerce	v0.0.1		0.0.1
+coerce	=v1.1.1		1.1.1
+coerce	1.2.3.4.5.6		1.2.3

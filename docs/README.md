@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Java-Semver</h1>
 
-  _**Java-Semver** is a lightweight, zero-dependency Java library that provides full support for **Semantic Versioning 2.0.0**. Designed for simplicity and reliability, it enables parsing and comparing semantic versions (`major.minor.patch-preRelease+build`) effortlessly. Perfect for applications requiring precise version management._
+  _A modern & lightweight Java library providing full **Semantic Versioning 2.0.0** specification compliance. Designed as a port of the javascript ecosystems [Node Semver](https://github.com/npm/node-semver), it ports all major features of [Node Semver](https://github.com/npm/node-semver) to native Java._
 
 <br>
 <div>
@@ -11,7 +11,7 @@
 <a href="https://central.sonatype.com/artifact/io.github.milkdrinkers/javasemver">
     <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/io.github.milkdrinkers/javasemver?style=for-the-badge&labelColor=141417">
 </a>
-<a href="https://milkdrinkers.athyrium.eu/javasemver">
+<a href="https://docs.milkdrinkers.dev/javasemver">
     <img alt="Documentation" src="https://img.shields.io/badge/DOCUMENTATION-900C3F?style=for-the-badge&labelColor=141417">
 </a>
 <a href="https://javadoc.io/doc/io.github.milkdrinkers/javasemver">
@@ -32,15 +32,20 @@
 
 ---
 
+![code image](image.png)
+
 ## 🌟 Features
 
-- **Full SemVer 2.0.0 Compliance**: Strict adherence to the official specification.
+- **Full SemVer 2.0.0 Compliance**: Adherence to the official specification.
 - **Zero Dependencies**: Lightweight and self-contained.
 - **Java 8+ compatible**: Compatible with legacy and modern Java projects.
-- **Simple API**: Intuitive methods for parsing and comparing versions.
-- **Error Handling**: Gracefully handles invalid versions through exceptions.
-- **Well-tested**: Robust JUnit test coverage ensures reliability.
-- **Pre-release & Build Metadata**: Supports `1.0.0-alpha+001` and other complex formats.
+- **Node Semver Features Ported:**
+  - Parsing
+  - Comparisons
+  - Ranges
+  - Incrementing
+  - Coercion
+- **Well-tested**: Extensive test coverage, including parity tests with node-semver.
 
 ## 📦 Installation
 
@@ -78,25 +83,36 @@ dependencies {
 
 </details>
 
-## Usage Example 🚀
+## Usage Example
 
 ```java
 import io.github.milkdrinkers.javasemver.Version;
+import io.github.milkdrinkers.javasemver.enums.ReleaseType;
 
-final Version currentVersion = Version.of("1.0.0-RC.1+5");
-final Version latestVersion = Version.of("2.0.0-beta+exp.sha.5114f85");
+// Parsing and comparisons
+final Version current = Version.parse("1.0.0-rc.1+5");
+final Version latest = Version.parse("2.0.0-beta+exp.sha.5114f85");
 
-Version.isNewer(currentVersion, latestVersion); // false
-Version.isNewerOrEqual(currentVersion, latestVersion); // false
-Version.isEqual(currentVersion, latestVersion); // false
-Version.isOlderOrEqual(currentVersion, latestVersion); // true
-Version.isOlder(currentVersion, latestVersion); // true
+current.isLessThan(latest); // true
+current.isGreaterThan(latest); // false
+current.isEqualTo(latest); // false
+
+// Ranges
+Version.parse("1.2.3").satisfies("^1.0.0");         // true
+Version.parse("2.0.0").satisfies(">=1.0.0 <2.0.0"); // false
+
+// Incrementing
+Version.parse("1.2.3").increment(ReleaseType.MINOR); // 1.3.0
+Version.parse("1.2.3").nextPatch(); // 1.2.4
+
+// Coerceion
+Version.coerce("release-v1.2");  // Optional wrapped 1.2.0
 ```
 
 ## 📚 Documentation
 
 - [Full Javadoc Documentation](https://javadoc.io/doc/io.github.milkdrinkers/javasemver)
-- [Documentation](https://milkdrinkers.athyrium.eu/javasemver)
+- [Documentation](https://docs.milkdrinkers.dev/javasemver)
 - [Maven Central](https://central.sonatype.com/artifact/io.github.milkdrinkers/javasemver)
 
 ---

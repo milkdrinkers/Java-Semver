@@ -21,6 +21,8 @@ subprojects {
     project.version = rootProject.version
     project.description = rootProject.description
 
+    base.archivesName.set("${rootProject.name}-${project.name}")
+
     repositories {
         mavenCentral()
     }
@@ -35,14 +37,14 @@ subprojects {
     }
 
     java {
-        toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+        toolchain.languageVersion.set(JavaLanguageVersion.of(25))
         withJavadocJar()
     }
 
     tasks {
         compileJava {
             options.encoding = Charsets.UTF_8.name()
-            options.compilerArgs.addAll(arrayListOf("-Xlint:all", "-Xlint:-processing", "-Xdiags:verbose"))
+            options.compilerArgs.addAll(arrayListOf("-Xlint:all", "-Xlint:-processing", "-Xlint:-options", "-Xdiags:verbose"))
             options.release.set(8)
         }
 
@@ -70,7 +72,9 @@ subprojects {
 
 fun applyCustomVersion() {
     // Apply custom version arg or append snapshot version
-    val ver = properties["altVer"]?.toString() ?: "${rootProject.version}-SNAPSHOT.${Instant.now().epochSecond}"
+    val ver = providers.gradleProperty("altVer")
+        .orElse(providers.provider { "${rootProject.version}-SNAPSHOT.${Instant.now().epochSecond}" })
+        .get()
 
     // Strip prefixed "v" from version tag
     rootProject.version = (if (ver.first().equals('v', true)) ver.substring(1) else ver.uppercase()).uppercase()
